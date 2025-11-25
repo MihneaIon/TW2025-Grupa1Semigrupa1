@@ -1,0 +1,58 @@
+footer{
+            background-color: #1e3932;
+            min-height: 700px;
+            color: rgba(255, 255, 255, 0.712);
+        }
+        .img_f1{width: 70px;
+            left: 50%;
+            padding-left: 100px;
+             
+        }
+        .tab_foot{
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.712);
+        }
+        th{text-align: left;
+            color: rgb(255, 255, 255);
+            padding-bottom: 15px;
+            padding-right: 210px;
+            font-size: 20px;
+        }
+        td{
+            padding-bottom: 20px;
+            font-size: 20px;
+        }
+        table{
+            display: inline;
+            padding-left: 100px;
+        }
+        .tab_foot:hover{
+            color:white;
+        }
+        span{
+            
+            display: block;
+        }
+        .foot span{
+            padding-left: 270px;
+        }
+        #h4_1{
+            padding-left: 270px;
+        }
+        h4{
+            display: inline;
+            padding-right: 30px;
+        }
+        .socials{
+            width: 20px;
+            padding-right: 40px;
+            opacity: 100%;
+        }
+        .socials:hover{
+            cursor: pointer;
+            opacity: 70%;
+            
+        }
+        #s1{
+            padding-left: 270px;
+        }

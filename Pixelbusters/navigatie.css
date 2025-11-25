@@ -1,0 +1,87 @@
+ * {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+.navigatie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 40px;
+  gap: 40px;
+ border-bottom: 2px solid #eee;
+  }
+
+.navigatie img {
+ height: 45px;
+  }
+.navigatie a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+}
+.navigatie .verde:hover{
+  color: green;
+}
+
+.buton1 {
+  padding: 8px 18px;
+  border-radius: 20px;
+  background: #000;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+.buton1:hover{
+  background-color: #000000da;
+}
+
+.buton2 {
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #000;
+  background-color: #ffffff;
+}
+
+.buton2:hover{
+  background-color: #f0eeeefb;
+}
+
+
+.dropdown{
+  position: relative;
+}
+.dropbtn {
+text-decoration: none;
+color: #000;
+font-weight: bold;
+font-size: 15px;
+border: none;
+ background: none;
+cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+  font-weight: 400;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
