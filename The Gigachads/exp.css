@@ -1,0 +1,13 @@
+
+.lista {
+    text-align: center;
+    
+}
+a {
+    text-decoration: none;
+}
+li {
+    display: inline;
+    padding: 5px;
+}
+
