@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 .part3 figure{
     display: inline-block;
     justify-content: center;
     margin: auto;
+=======
+img{
+    width: 14rem;
+    max-width: 100%;
+>>>>>>> f27d76f1b02397249d0640da5bdf6d5382fba331
 }
