@@ -1,18 +1,27 @@
 
+*{
+     margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'inter';
+
+ 
+}
 li{
     display: inline;
     padding: 7px;
+    margin:auto;
+    text-align: center;
+    vertical-align:middle;
 
 }
 a{
     text-decoration: none;
 }
 .host2{
-    padding-bottom: 90px;
    text-align: right;
 }
 .haide{
-    margin-top: -120px;
    text-align: center;
 }
 .text{
@@ -29,23 +38,78 @@ a{
 }
 #cautare{
     text-align: center;
-    padding: 30px;
+    
     
 }
 #habs{
-    max-width: 250px;
-    padding-left: 30px;
-    padding-top: -10px;
+
 }
 #dreapta{
  text-align: right;
- margin-top: -50px;
+ margin-top: -70px;
+ padding-bottom: 25px;
+ 
 }
 hr{
-    margin-top: 50px;
+    
 }
 #search{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 70px;
+padding-bottom: 10px;
+    
+}
+
+.main{
+background-color: #ebeaea;
+  
+}
+.lista{
+ margin-top: -120px;
+}
+.logo234{
+    max-width: 200px;
+}
+.planeta{
+    background-color: rgb(218, 217, 217);
+    border-radius: 50%;
+}
+#inceput{
+    padding-left: 80px;
+}
+a{
+     color: black;
+    text-decoration: none;
+}
+.imagine{
+    padding: 5px;
+    float: left ;
+    border-radius: 15px;
+    
+    
+}
+.anunt{
+    position: relative;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-right: 80px;
+}
+.poza{
+    border-radius: 15px;
+    width: 185px;
+    height: 170px;
+    
+}
+.peste{
+    display: inline;
+    position: absolute;      
+    background: rgba(255, 255, 255, 0.75);    
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 15px;
+    top: 25px; 
+    padding-left: 25px; 
+    padding: 4px 12px;
     
 }
