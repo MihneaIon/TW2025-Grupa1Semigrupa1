@@ -51,7 +51,7 @@ nav.main-nav a{
     padding: 6px 8px;
     font-size: 18px;
 }
-.img_bckg img{
+.img_bckg{
     background-image: url(./Imagini/blender_50_artwork_2K.jpg);
     background-size: cover;
     background-position: center;
@@ -59,18 +59,17 @@ nav.main-nav a{
     min-height: 560px;
     display: flex;
     align-items: center;
-    padding: 80px 60px;
+    padding: 60px 80px;
     color: white;
     position: relative;
-}
-.img_bckg img{
-    display: none;
+    align-items: flex-end;
 }
 .container{
     display: flex;
     flex-direction: column;
     gap: 20px;
     max-width: 760px;
+    margin: 0;
 }
 .butoane{
     display: flex;
@@ -80,4 +79,38 @@ nav.main-nav a{
 img{
     width: 14rem;
     max-width: 100%;
+}
+.titlu h1{
+    font-size: 64px;
+    margin: 0;
+    line-height: 1;
+    color: white;
+    font-weight: 700;
+}
+.titlu h3{
+    font-weight: 400;
+    margin: 8px 0 0 0;
+    font-size: 22px;
+}
+.butoane button{
+    padding: 12px 22px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(0,0,0);
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.butoane button:first-child{
+    background: #ffffff;
+    color: black;
+}
+.butoane button:last-child{
+    background: rgb(0, 0, 0);
+}
+.part2 figure img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
 }
