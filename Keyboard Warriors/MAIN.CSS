@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*Bara de navigare*/
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 14px 28px;
+    border-bottom: 1px solid #ddd;
+    background: #f8f8f8;
+}
+
+/*BUTOANE MENIU*/
+
+.meniul-principal button {
+    background: none;
+    border: none;
+    margin: -1px;
+    padding: 4px 6px;
+    font-size: 28px;
+    cursor: pointer;
+    border-radius: 0px;
+    
+}
+
+.buton-IBM {
+    font-weight: bolder;
+}
+
+.buton-Ai {
+    font-size: small    ;
+}
+ 
+.meniul-principal button:hover {
+    background-color: #e4e4e4;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 24px;
+}
+
+.nav-dreapta span {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-stanga span {
+    margin-left: 16px;
+    font-size:12px;
+    cursor: pointer;
+}
+
+/*main Layout*/
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 300px;
+    padding: 40px 40px;
+    gap: 30px;
+}
+
+/*Continut Stanga*/
+.stanga h1 {
+    font-size: 42px;
+    font-weight: 300;
+    color: #1f57ff;
+    margin-bottom: 20px;
+}
+
+.stanga p {
+    font-size: 17px;
+    line-height: 1.4;
+    color: #444;
+}
+
+
+/*Buton*/
+.grup-de-butoeane {
+    display:flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.buton-albastru {
+    padding: 2.8% 4.6%;;
+    border: 1px solid #0f62fe;
+    border-radius: 0px;
+    color: white;
+    background: #0f62fe;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.buton-albastru:hover {
+    background-color: #0b47b7;
+}
+
+.buton-alb {
+    padding: 2.8% 4.6%;
+    border: 1px solid #0f62fe;
+    border-radius: 0px;
+    color: #0f62fe;
+    background: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color ;
+}
+
+.buton-alb:hover {
+    background-color: #0b47b7;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .grup-de-butoeane {
+        flex-direction: column;
+        gap:15px;
+    }
+
+    .buton-albastru, .buton-alb {
+        flex: 1 1 100%;
+    }
+}
+
+
+.dreapta-nautati h3{
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+
+.dreapta-nautati a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 12px;
+    color: #0050c8;
+    font-size: 14px;
+}
+
+.dreapta-nautati a:hover {
+    text-decoration: underline;
+}
+
+
+.paginare {
+    margin-top: 20px ;
+    display: flex;
+    gap: 12px;
+}
+
+.paginare span {
+    cursor: pointer;
+    font-size: 14px;
+    color: #0050c8;
+}
+
+.paginare span:hover {
+    border-bottom: 5px solid #0050c8;
+    border-radius: 20px;
+}
+
+.video {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(135deg, #5d5afe, #00b0ff);
+    border-radius: 12px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:28px;
+}
+
+.dreapta-nautati h3 {
+    margin-bottom: 16px;
+    font-weight: 600px;
+}
+
+.dreapta-nautati a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 12px;
+    color: #0050c8;
+    font-size: 14px;
+}
+
+.paginare {
+    cursor: pointer;
+    font-size: 14px;
+    color: #888
+}
