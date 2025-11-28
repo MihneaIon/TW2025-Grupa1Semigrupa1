@@ -1,0 +1,980 @@
+<style>
+ :root{--accent:#ed8f31;--max-width:1500px;--container-padding:24px;}
+*{box-sizing:border-box}
+body{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin:0; color:#111; background:#fff; line-height:1.45}
+.container{max-width:var(--max-width);margin:0 auto;padding:0 var(--container-padding);}
+
+
+.wp-block-columns, .wp-container-core-columns-is-layout-9d6595d7, .wp-container-core-columns-is-layout-9d6595d7 > .wp-block-column { display:flex; gap:28px; align-items:flex-start; }
+.wp-block-columns > .wp-block-column, .wp-block-column { display:block; flex:1 ; min-width:200px; }
+
+
+.wp-block-group.has-black-background-color { background:#000 ; color:#fff ; }
+.wp-block-group.has-black-background-color a, .wp-block-group.has-black-background-color p, .wp-block-group.has-black-background-color h3 { color:#fff ; }
+.wp-block-group.has-black-background-color .wp-block-columns { display:flex ; gap:28px; flex-wrap:wrap; }
+.wp-block-group.has-black-background-color .wp-block-column { flex:1; min-width:220px; }
+
+
+.navbar-mobile-toggler, .navbar-mobile { display:none ; }
+
+
+.hero-bg { background-size:cover ; background-position:center ; }
+.hero-overlay { background: rgba(0,0,0,0.33) ; position:relative; }
+
+
+.navbar-primary, .navbar-secondary { background: #fff; }
+.navbar-primary .navbar-nav, .navbar-secondary .navbar-nav { display:flex; gap:12px; flex-wrap:wrap; list-style:none; padding:0; margin:0; align-items:center; }
+.navbar-primary .nav-link, .navbar-secondary .nav-link { color:#333; text-decoration:none; padding:6px 0; display:inline-block; }
+
+
+.footer-navigation a { color: #222; text-decoration:none; }
+
+
+.entry-content { margin-top: -50px; padding-bottom: 1rem; }
+
+
+@media (max-width:900px){
+  .wp-block-columns { flex-direction:column ; }
+  .wp-block-group.has-black-background-color .wp-block-columns { flex-direction:column ; }
+  .navbar-primary .navbar-nav { display:none ; } 
+  .hero .hero-content { padding:36px 12px; }
+}
+</style>
+<style>
+ .wp-block-columns { 
+    display: flex ; 
+    flex-direction: row ; 
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.wp-block-column { 
+    flex: 1 ;
+}
+
+
+.wp-block-group.has-black-background-color.wp-elements-6fca4ac9e7a79db8d8db45e10e72a6ee {
+    background-color: #000 ;
+    color: #fff ;
+    padding-top: 3rem ;
+    padding-bottom: 3rem ;
+}
+.wp-block-group.has-black-background-color.wp-elements-6fca4ac9e7a79db8d8db45e10e72a6ee .wp-block-column,
+.wp-block-group.has-black-background-color.wp-elements-6fca4ac9e7a79db8d8db45e10e72a6ee p,
+.wp-block-group.has-black-background-color.wp-elements-6fca4ac9e7a79db8d8db45e10e72a6ee h3,
+.wp-block-group.has-black-background-color.wp-elements-6fca4ac9e7a79db8d8db45e10e72a6ee a {
+    color: #fff ;
+}
+
+
+.wp-block-group.has-black-background-color h3.wp-block-heading {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+
+.wp-block-group.has-black-background-color * {
+    color: inherit ;
+}
+</style>
+<style>
+ .wp-block-columns { 
+    display: flex ; 
+    flex-direction: row ; 
+    justify-content: space-between;
+    gap: 40px;
+}
+.wp-block-column { 
+    flex: 1 ;
+}
+</style>
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   About — Blender
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="The Free and Open Source 3D Creation Software — blender.org" name="description"/>
+  <meta content="Blender Foundation" name="author"/>
+  <meta content="#ed8f31" name="theme-color"/>
+  <meta content="Blender" property="og:site_name"/>
+  <meta content="  About — Blender" property="og:title"/>
+  <meta content="The Free and Open Source 3D Creation Software — blender.org" property="og:description"/>
+  <meta content="https://www.blender.org/about/" property="og:url"/>
+  <meta content="https://www.blender.org/wp-content/uploads/2020/06/blender_splash_283_0_ian_hubert-480x270.jpg" property="og:image"/>
+  <meta content="website" property="og:type"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="@blender" name="twitter:site"/>
+  <meta content="@blender" name="twitter:creator"/>
+  <meta content="  About — Blender" name="twitter:title"/>
+  <meta content="The Free and Open Source 3D Creation Software — blender.org" name="twitter:description"/>
+  <meta content="https://www.blender.org/wp-content/uploads/2020/06/blender_splash_283_0_ian_hubert-480x270.jpg" name="twitter:image"/>
+  <meta content="The Free and Open Source 3D Creation Software — blender.org" name="twitter:image:alt"/>
+  <link href="https://www.blender.org/wp-content/themes/bthree/style.css?x97106" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="https://www.blender.org/wp-content/themes/bthree/assets/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="https://www.blender.org/wp-content/themes/bthree/assets/icons/favicon.svg" rel="icon" type="image/svg+xml"/>
+  <link href="https://www.blender.org/wp-content/themes/bthree/assets/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="https://www.blender.org/wp-content/themes/bthree/assets/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+  <meta content="max-image-preview:large" name="robots"/>
+  <div class="container-main">
+   <nav class="navbar navbar-expand-md navbar-primary" role="navigation">
+    <div class="container">
+     <a class="navbar-brand navbar-logo-blender" href="/" title="blender.org homepage">
+     </a>
+     <ul class="navbar-nav">
+      <li class="nav-item">
+       <a class="nav-link" href="https://www.blender.org/features/" title="">
+        Features
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://www.blender.org/download/" title="Download">
+        Download
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://www.blender.org/support/" title="">
+        Support
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://www.blender.org/get-involved/" title="">
+        Get Involved
+       </a>
+      </li>
+      <li class="nav-item active">
+       <a class="nav-link" href="https://www.blender.org/about/" title="">
+        About
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://www.blender.org/jobs/" title="">
+        Jobs
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://store.blender.org/" title="">
+        Store
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://fund.blender.org/?utm_medium=www-nav" title="Join the Development Fund">
+        <i class="i-heart">
+        </i>
+        Donate
+       </a>
+      </li>
+     </ul>
+    </div>
+   </nav>
+   <nav class="navbar navbar-secondary" role="navigation">
+    <div class="container">
+     <ul class="navbar-nav">
+      <li class="nav-item nav-parent">
+       <a class="nav-link" href="https://www.blender.org/about/">
+        About
+       </a>
+      </li>
+      <li class="nav-item nav-separator">
+       <i class="i-chevron-right">
+       </i>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://www.blender.org/about/foundation/">
+        Blender Foundation
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://www.blender.org/about/institute/">
+        Blender Institute
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://www.blender.org/about/studio/">
+        Blender Studio
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://www.blender.org/about/roles/">
+        Roles
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://www.blender.org/about/people/">
+        People
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://www.blender.org/about/license/">
+        License
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://www.blender.org/about/history/">
+        History
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://www.blender.org/about/logo/">
+        Logo
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://www.blender.org/about/credits/">
+        Credits
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://www.blender.org/about/website/">
+        Website
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="https://www.blender.org/about/trademark-policy/">
+        Trademark Policy
+       </a>
+      </li>
+     </ul>
+    </div>
+   </nav>
+   <nav class="navbar-mobile" id="navbar-mobile">
+    <ul class="navbar-nav">
+     <li class="nav-item">
+      <a class="nav-link" href="https://www.blender.org/features/" title="">
+       Features
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="https://www.blender.org/download/" title="Download">
+       Download
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="https://www.blender.org/support/" title="">
+       Support
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="https://www.blender.org/get-involved/" title="">
+       Get Involved
+      </a>
+     </li>
+     <li class="nav-item active">
+      <a class="nav-link" href="https://www.blender.org/about/" title="">
+       About
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="https://www.blender.org/jobs/" title="">
+       Jobs
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="https://store.blender.org/" title="">
+       Store
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="https://fund.blender.org/?utm_medium=www-nav" title="Join the Development Fund">
+       <i class="i-heart">
+       </i>
+       Donate
+      </a>
+     </li>
+    </ul>
+    <nav class="navbar navbar-secondary" role="navigation">
+     <div class="container">
+      <ul class="navbar-nav">
+       <li class="nav-item nav-parent">
+        <a class="nav-link" href="https://www.blender.org/about/">
+         About
+        </a>
+       </li>
+       <li class="nav-item nav-separator">
+        <i class="i-chevron-right">
+        </i>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="https://www.blender.org/about/foundation/">
+         Blender Foundation
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="https://www.blender.org/about/institute/">
+         Blender Institute
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="https://www.blender.org/about/studio/">
+         Blender Studio
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="https://www.blender.org/about/roles/">
+         Roles
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="https://www.blender.org/about/people/">
+         People
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="https://www.blender.org/about/license/">
+         License
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="https://www.blender.org/about/history/">
+         History
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="https://www.blender.org/about/logo/">
+         Logo
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="https://www.blender.org/about/credits/">
+         Credits
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="https://www.blender.org/about/website/">
+         Website
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="https://www.blender.org/about/trademark-policy/">
+         Trademark Policy
+        </a>
+       </li>
+      </ul>
+     </div>
+    </nav>
+   </nav>
+   <div class="hero header-size-large header-align-x-left header-align-y-center is-container-overlap">
+    <div class="container">
+     <div class="hero-content">
+      <h1 class="font-size-title">
+       The Freedom to Create
+      </h1>
+      <div class="hero-subtitle">
+       Blender is Free and Open Source software, forever.
+      </div>
+     </div>
+    </div>
+    <div class="hero-bg" style="background-image: url(https://www.blender.org/wp-content/uploads/2020/06/blender_splash_283_0_ian_hubert.jpg); background-position-y: 50%">
+    </div>
+    <div class="hero-overlay" style="background-color: rgba(0,0,0,0.33)">
+    </div>
+    <div class="hero-credits">
+     Ian Hubert
+    </div>
+   </div>
+   <div class="w-100">
+    <article class="post-103 page type-page status-publish has-post-thumbnail hentry" id="post-103">
+     <div class="entry-content">
+      <div class="wp-block-columns container mx-auto p-0 is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+       <div class="wp-block-column is-style-box is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
+        <h2 class="wp-block-heading">
+         More than Software
+        </h2>
+        <p>
+         Blender is a community project coordinated by the Blender Foundation, primarily funded by
+         <a href="https://fund.blender.org/">
+          donations
+         </a>
+         .
+        </p>
+        <p class="mb-0">
+         At its core is the Blender software, to which thousands of people have contributed, and that millions use daily.
+        </p>
+       </div>
+       <div class="wp-block-column is-style-box is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
+        <h2 class="wp-block-heading has-text-align-left">
+         Mission
+        </h2>
+        <p class="has-text-align-left has-medium-font-size">
+         Get the world’s best 3D CG technology in the hands of artists as free/open source software.
+        </p>
+        <h2 class="wp-block-heading has-text-align-left">
+         Vision
+        </h2>
+        <p class="has-text-align-left mb-0 has-medium-font-size">
+         Everyone should be free to create 3D CG content, with free technical and creative production means and free access to markets.
+        </p>
+       </div>
+      </div>
+      <div class="wp-block-group is-style-box container mt-3 mx-auto is-layout-flow wp-block-group-is-layout-flow">
+       <h2 class="wp-block-heading">
+        Activities
+       </h2>
+       <p>
+        As a community-driven project under the
+        <a href="https://www.blender.org/about/license/">
+         GNU General Public License (GPL)
+        </a>
+        , the public is empowered to make small and large changes to the code base, which leads to new features, responsive bug fixes, and better usability.
+       </p>
+       <p>
+        More help is always welcome! From developing and improving Blender to writing documentation, etc, there are a number of different things you can do to
+        <a href="https://www.blender.org/get-involved/">
+         get involved
+        </a>
+        .
+       </p>
+      </div>
+      <div class="wp-block-group has-white-color has-black-background-color has-text-color has-background has-link-color wp-elements-6fca4ac9e7a79db8d8db45e10e72a6ee is-layout-flow wp-block-group-is-layout-flow" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50);padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+       <div class="wp-block-group is-layout-constrained wp-container-core-group-is-layout-2759a346 wp-block-group-is-layout-constrained" style="margin-top:var(--wp--preset--spacing--70);margin-bottom:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
+        <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+         <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+          <h3 class="wp-block-heading mb-4">
+           Community Contributions
+          </h3>
+          <p>
+           <strong>
+            What:
+           </strong>
+           Contributions to Blender Modules, technical and user documentation design, code, testing and QA, demo files.
+          </p>
+          <p>
+           <strong>
+            Who:
+           </strong>
+           Individuals and organizations with any background, from all over the world.
+          </p>
+          <p>
+           <strong>
+            Where:
+           </strong>
+           Online on blender.org websites
+          </p>
+         </div>
+         <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+          <h3 class="wp-block-heading mb-4">
+           Development
+          </h3>
+          <p>
+           <strong>
+            What:
+           </strong>
+           Contributions to Blender Modules, technical documentation, design, code. Strategic projects and initiatives. DevOps and infrastructure. Product leadership. Communication.
+          </p>
+          <p>
+           <strong>
+            Who:
+           </strong>
+           Blender Institute: developers, engineers, project managers, designers.
+          </p>
+          <p>
+           <strong>
+            Where:
+           </strong>
+           Blender HQ Amsterdam. Online.
+          </p>
+          <p>
+           <strong>
+            Funding:
+           </strong>
+           Donations at fund.blender.org
+          </p>
+         </div>
+         <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+          <h3 class="wp-block-heading mb-4">
+           Production
+          </h3>
+          <p>
+           <strong>
+            What:
+           </strong>
+           Creative projects focused on pushing Blender development, developing and sharing Blender-centric professional production knowledge, such as training and documentation.
+          </p>
+          <p>
+           <strong>
+            Who:
+           </strong>
+           Blender Studio: a team of artists, TDs, developers and producers.
+          </p>
+          <p>
+           <strong>
+            Where:
+           </strong>
+           Blender HQ Amsterdam. Online.
+          </p>
+          <p>
+           <strong>
+            Funding:
+           </strong>
+           Subscriptions at studio.blender.org
+          </p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="wp-block-group is-style-box container mx-auto is-layout-flow wp-block-group-is-layout-flow">
+       <h2 class="wp-block-heading">
+        Funding
+       </h2>
+       <p>
+        How does Blender make money? Blender’s main income is via the
+        <a href="https://fund.blender.org/">
+         Development Fund
+        </a>
+        memberships and one-time donations.
+       </p>
+       <p>
+        The funds are collected by Blender Foundation, which allocates them towards activities and operations aligned with Blender’s mission and vision.
+       </p>
+       <p>
+        Next to that, Blender Studio offers subscription-based access to production knowledge and assets available through
+        <a href="https://studio.blender.org">
+         studio.blender.org
+        </a>
+        .
+       </p>
+      </div>
+      <div class="wp-block-group is-style-box container mt-3 mx-auto is-layout-flow wp-block-group-is-layout-flow">
+       <h2 class="wp-block-heading">
+        Affiliations
+       </h2>
+       <p>
+        Blender Foundation is a recognized partner for many big corporations in the technical/creative industry. This not only via the membership of the Development Fund, but especially as official member of:
+       </p>
+       <ul class="wp-block-list">
+        <li>
+         The
+         <a href="https://www.khronos.org/members/list#associateMember">
+          Khronos Group
+         </a>
+         , Associate Member. Furthering open standards.
+        </li>
+        <li>
+         The
+         <a href="https://openinventionnetwork.com/">
+          Open Invention Network
+         </a>
+         . Non-aggression alliance for patents.
+        </li>
+        <li>
+         The
+         <a href="https://www.linuxfoundation.org/">
+          Linux Foundation
+         </a>
+         . Supporting open source ecosystems.
+        </li>
+        <li>
+         The
+         <a href="https://www.aswf.io/">
+          Academy Software Foundation
+         </a>
+         . Open source for the creative industry.
+        </li>
+        <li>
+         <a href="https://www.asifa-hollywood.org/">
+          ASIFA Hollywood
+         </a>
+         , the international animated film society – best known from the Annie Awards.
+        </li>
+       </ul>
+      </div>
+      <div class="wp-block-group is-style-box container mt-3 mx-auto mb-4 is-layout-flow wp-block-group-is-layout-flow">
+       <h2 class="wp-block-heading">
+        License
+       </h2>
+       <p>
+        Blender is Free Software. You are
+        <strong>
+         free
+        </strong>
+        to use Blender for
+        <em>
+         any
+        </em>
+        purpose, including commercially or for education. This freedom is being defined by Blender’s
+        <a href="https://www.blender.org/about/license/">
+         GNU General Public License (GPL)
+        </a>
+        .
+       </p>
+       <p>
+        Read more about
+        <a href="https://www.blender.org/about/license/">
+         the license
+        </a>
+        .
+       </p>
+      </div>
+     </div>
+    </article>
+   </div>
+  </div>
+  <div class="footer-navigation">
+   <div class="container">
+    <div class="row">
+     <div class="col-6 col-md-2">
+      <a class="sitemap-title" href="https://www.blender.org/download/">
+       Download
+      </a>
+      <ul>
+       <li>
+        <a href="https://www.blender.org/download/" title="Download Blender">
+         Latest Blender
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/download/lts/" title="Blender Long-term Support">
+         Blender LTS
+        </a>
+       </li>
+       <li>
+        <a href="https://opendata.blender.org/?utm_medium=www-footer" title="Blender Benchmark">
+         Blender
+              Benchmark
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/download/previous-versions/" title="Previous Versions">
+         Previous
+              Versions
+        </a>
+       </li>
+       <li>
+        <a href="https://builder.blender.org/download/daily/?utm_medium=www-footer" title="Experimental Builds">
+         Experimental Builds
+        </a>
+       </li>
+       <li>
+        <a href="https://projects.blender.org/blender/blender?utm_medium=www-footer" title="Source Code">
+         Source
+              Code
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/download/releases/" title="Release Notes">
+         Release Notes
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/download/requirements/" title="Requirements">
+         Requirements
+        </a>
+       </li>
+      </ul>
+      <div class="sitemap-title">
+       Organization
+      </div>
+      <ul>
+       <li>
+        <a href="https://www.blender.org/about/people/" title="People">
+         People
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/jobs/" title="Jobs">
+         Jobs
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="col-6 col-md-2">
+      <a class="sitemap-title" href="https://www.blender.org/about/">
+       About
+      </a>
+      <ul>
+       <li>
+        <a href="https://www.blender.org/about/foundation/" title="Blender Foundation">
+         Blender Foundation
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/about/institute/" title="Blender Institute">
+         Blender Institute
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/about/studio/" title="Blender Studio">
+         Blender Studio
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/about/license/" title="License">
+         License
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/about/logo/" title="Logo &amp; Trademark">
+         Logo &amp; Trademark
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/about/credits/" title="Credits">
+         Credits
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/privacy-policy/" title="Privacy Policy">
+         Privacy Policy
+        </a>
+       </li>
+      </ul>
+      <a class="sitemap-title" href="https://www.blender.org/news/" title="Articles">
+       Articles
+      </a>
+      <ul>
+       <li>
+        <a href="https://www.blender.org/category/news/" title="News">
+         News
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/category/press/" title="Press Releases">
+         Press Releases
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/get-involved/user-stories/" title="User Stories">
+         User Stories
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="col-6 col-md-2">
+      <a class="sitemap-title" href="https://www.blender.org/get-involved/">
+       Get
+          Involved
+      </a>
+      <ul>
+       <li>
+        <a href="https://www.blender.org/get-involved/dashboard/" title="Dashboard">
+         Dashboard
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/get-involved/developers/" title="Development">
+         Development
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/get-involved/documenters/" title="Documentation">
+         Documentation
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/get-involved/" title="Education">
+         Education
+        </a>
+       </li>
+      </ul>
+      <a class="sitemap-title" href="https://studio.blender.org/?utm_medium=www-footer" title="Blender Studio">
+       Blender
+          Studio
+      </a>
+      <ul>
+       <li>
+        <a href="https://studio.blender.org/films/?utm_medium=www-footer" title="Blender Studio Films">
+         Films
+        </a>
+       </li>
+       <li>
+        <a href="https://studio.blender.org/training/?utm_medium=www-footer" title="Blender Studio Training">
+         Training
+        </a>
+       </li>
+      </ul>
+      <a class="sitemap-title" href="https://www.blender.org/support/">
+       Support
+      </a>
+      <ul>
+       <li>
+        <a href="https://docs.blender.org/manual/?utm_medium=www-footer" title="Manual">
+         Manual
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/community/" title="Community">
+         Community
+        </a>
+       </li>
+       <li>
+        <a href="https://www.blender.org/support/faq/" title="FAQ">
+         FAQ
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="col-6 col-md-2">
+      <a class="sitemap-title" href="https://developer.blender.org/?utm_medium=www-footer">
+       Developers
+      </a>
+      <ul>
+       <li>
+        <a href="https://developer.blender.org/?utm_medium=www-footer" title="Get Started">
+         Get Started
+        </a>
+       </li>
+       <li>
+        <a href="https://projects.blender.org/?utm_medium=www-footer" title="Projects">
+         Projects
+        </a>
+       </li>
+       <li>
+        <a href="https://developer.blender.org/docs/?utm_medium=www-footer" title="Developers Docs">
+         Docs
+        </a>
+       </li>
+       <li>
+        <a href="https://code.blender.org/?utm_medium=www-footer" title="Developers Blog">
+         Blog
+        </a>
+       </li>
+       <li>
+        <a href="https://devtalk.blender.org/?utm_medium=www-footer" title="Developers Forum">
+         Forum
+        </a>
+       </li>
+       <li>
+        <a href="https://www.youtube.com/blenderdevelopers" target="_blank" title="YouTube (Developers)">
+         YouTube
+        </a>
+       </li>
+       <li>
+        <a href="https://docs.blender.org/api/current/?utm_medium=www-footer" title="Python API">
+         Python API
+        </a>
+       </li>
+      </ul>
+      <a class="sitemap-title" href="https://conference.blender.org/" title="Blender Conference">
+       Blender
+          Conference
+      </a>
+     </div>
+     <div class="col-6 col-md-3 social">
+      <a class="sitemap-title" href="https://bsky.app/profile/blender.org">
+       Follow
+          Blender
+      </a>
+      <ul class="list-inline mb-4 social-icons">
+       <li>
+        <a class="social-icons__youtube" href="https://youtube.com/BlenderFoundation" target="_blank" title="Blender's Official YouTube channel">
+         <i class="i-youtube">
+         </i>
+        </a>
+       </li>
+       <li>
+        <a class="social-icons__bluesky" href="https://bsky.app/profile/blender.org" target="_blank" title="Follow Blender on Bluesky">
+         <i class="i-bluesky">
+         </i>
+        </a>
+       </li>
+       <li>
+        <a class="social-icons__instagram" href="https://instagram.com/blender.official/" target="_blank" title="Follow Blender on Instagram">
+         <i class="i-instagram">
+         </i>
+        </a>
+       </li>
+       <li>
+        <a class="social-icons__facebook" href="https://www.facebook.com/YourOwn3DSoftware/" target="_blank" title="Follow Blender on Facebook">
+         <i class="i-facebook">
+         </i>
+        </a>
+       </li>
+       <li>
+        <a class="social-icons__linkedin" href="https://www.linkedin.com/company/blender-org/" target="_blank" title="Follow Blender on LinkedIn">
+         <i class="i-linkedin">
+         </i>
+        </a>
+       </li>
+       <li>
+        <a class="social-icons__mastodon" href="https://mastodon.social/@blender" target="_blank" title="Follow Blender on Mastodon">
+         <svg viewbox="0 0 216.4144 232.00976" xmlns="http://www.w3.org/2000/svg">
+          <path d="M 107.87112,1.8691521 C 78.687821,2.1077446 50.615693,5.2679473 34.256124,12.781149 c 0,0 -32.4459422,14.513545 -32.4459422,64.032543 0,11.33929 -0.220399,24.897358 0.1387195,39.275628 1.1782038,48.42688 8.8777977,96.15389 53.6520047,108.00481 20.644395,5.46425 38.369975,6.60907 52.644934,5.82442 25.88728,-1.43526 40.41961,-9.23836 40.41961,-9.23836 l -0.85394,-18.78298 c 0,0 -18.49963,5.83267 -39.27562,5.12182 -20.58413,-0.70594 -42.314881,-2.21933 -45.644106,-27.49168 -0.307465,-2.2199 -0.461196,-4.59439 -0.461196,-7.0873 0,0 20.207151,4.93937 45.815252,6.11266 15.65855,0.71823 30.34229,-0.91732 45.25677,-2.69692 28.60157,-3.41533 53.50539,-21.03826 56.63538,-37.14079 4.93172,-25.36583 4.52549,-61.901308 4.52549,-61.901308 0,-49.518998 -32.44414,-64.032543 -32.44414,-64.032543 C 165.861,5.2679473 137.77144,2.1077446 108.58813,1.8691521 Z M 74.843276,40.561072 c 12.155915,0 21.360069,4.672182 27.446624,14.017872 l 5.91811,9.919343 5.91809,-9.919343 c 6.08534,-9.34569 15.28949,-14.017872 27.44664,-14.017872 10.50545,0 18.97017,3.693077 25.43431,10.897586 6.26612,7.204507 9.38608,16.94344 9.38608,29.197743 V 140.61564 H 152.63788 V 82.418319 c 0,-12.267833 -5.16149,-18.494728 -15.48615,-18.494728 -11.41555,0 -17.13636,7.385747 -17.13636,21.99154 V 117.77016 H 96.400641 V 85.915131 c 0,-14.605793 -5.722618,-21.99154 -17.138159,-21.99154 -10.324658,0 -15.486137,6.226895 -15.486137,18.494728 V 140.61564 H 40.021088 V 80.656401 c 0,-12.254303 3.120529,-21.993236 9.387885,-29.197743 C 55.871876,44.254149 64.3366,40.561072 74.843276,40.561072 Z" style="fill:none;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
+          </path>
+         </svg>
+        </a>
+       </li>
+       <li>
+        <a class="social-icons__tiktok" href="https://www.tiktok.com/@blender_org" target="_blank" title="Follow Blender on TikTok">
+         <i class="i-tiktok">
+         </i>
+        </a>
+       </li>
+       <li>
+        <a class="social-icons__bilibili" href="https://space.bilibili.com/3546814074587443" target="_blank" title="Follow Blender on Bilibili">
+         <i class="i-bilibili">
+         </i>
+        </a>
+       </li>
+      </ul>
+      <a class="sitemap-title" href="https://fund.blender.org/?utm_medium=www-footer">
+       Support Blender
+      </a>
+      <ul>
+       <li class="mb-3 mt-2">
+        <a class="btn btn-accent" href="https://fund.blender.org/?utm_medium=www-footer">
+         <i class="i-heart">
+         </i>
+         Donate
+        </a>
+       </li>
+       <li>
+        <a class="text-center" href="https://fund.blender.org/donate-once/?utm_medium=www-footer" title="One-time Donation">
+         One-time
+            Donation
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+  <footer class="footer-note">
+   Artistic freedom starts with Blender
+   <i class="i-heart">
+   </i>
+   <span>
+    The Free and Open
+    Source
+    3D Creation Suite
+   </span>
+   <div id="hop" title="Be awesome in space">
+    <svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+     <path d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z">
+     </path>
+    </svg>
+   </div>
+  </footer>
+  <style id="core-block-supports-inline-css" type="text/css">
+   .wp-container-core-columns-is-layout-9d6595d7{flex-wrap:nowrap;}.wp-elements-6fca4ac9e7a79db8d8db45e10e72a6ee a:where(:not(.wp-element-button)){color:var(--wp--preset--color--white);}.wp-container-core-group-is-layout-2759a346 > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:1500px;margin-left:auto ;margin-right:auto ;}.wp-container-core-group-is-layout-2759a346 > .alignwide{max-width:1500px;}.wp-container-core-group-is-layout-2759a346 .alignfull{max-width:none;}.wp-container-core-group-is-layout-2759a346 > .alignfull{margin-right:calc(var(--wp--preset--spacing--60) * -1);margin-left:calc(var(--wp--preset--spacing--60) * -1);}
+  </style>
+  <style>
+   .featured-subtitle {
+    max-width: 720px;
+}
+
+
+.entry-content {
+  margin-top: -75px;
+  padding-bottom: 1rem;
+}
+  </style>
+ 
+<style>
+/* Strong equal-height enforcement */
+.columns, .wp-block-columns {
+    display: flex !important;
+    align-items: stretch !important;
+}
+.col, .wp-block-column {
+    display: flex !important;
+    flex-direction: column !important;
+}
+.col > *, .wp-block-column > * {
+    flex-grow: 1 !important;
+}
+</style>
+
+</head>
+</html>
