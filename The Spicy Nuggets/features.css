@@ -87,6 +87,7 @@ li
     padding: 5px 20px;
     font-size: 15px;
     box-shadow: 0 10px 25px rgba(100, 170, 255, 0.6);
+    white-space: nowrap;
 }
 
 #btn:hover
