@@ -272,3 +272,25 @@ span
     margin-top: auto;
     margin-bottom: 25px;
 }
+
+#footer
+{
+    background-color: #292D32;
+    display: flex;
+}
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.column a
+{
+    text-decoration: none;
+}
+
+.header
+{
+    color:
+}
