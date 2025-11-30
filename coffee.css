@@ -14,7 +14,7 @@ body{
     flex-direction: column;
 }
 .left{
-    height: 5000px;
+    height: 3300px;
 }
 
 .left img{
@@ -190,4 +190,22 @@ footer {
     top: 50px;
     left: 20px;
 
+}
+
+.bloc4{
+    position: absolute;
+    top: 2700px;
+    left: 600px;
+    width: 700px;
+
+}
+
+.bloc4main{
+      font-size: 30px;
+    margin-bottom: 15px;
+}
+ 
+.bloc4text{
+    color: gray;
+    margin-bottom: 20px;
 }

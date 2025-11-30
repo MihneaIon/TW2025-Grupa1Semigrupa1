@@ -53,5 +53,193 @@ button
     padding: 5px 20px;
     font-weight: bold;
     font-size: 15px;
+<<<<<<< HEAD
     box-shadow: 0 0 25px rgba(100, 170, 255, 0.6);
+=======
+    box-shadow: 0 10px 25px rgba(100, 170, 255, 0.6);
+    white-space: nowrap;
+}
+
+#btn:hover
+{
+    filter: brightness(107%);
+}
+
+#active
+{
+    color: black;
+    padding-bottom: 17px;
+    border-bottom: 5px solid black;
+}
+
+#secondNav
+{
+    width: 100%;
+    background-color: #292D32;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navBar2 a
+{
+    color: #D2D6DA;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #007bff;
+}
+
+.diffLi, .diffLi > a
+{
+    color: #8D8E96;
+}
+
+#title
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .4)),url('./Imagini/featuresBg');
+    background-size: cover;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.titleText
+{
+    margin-bottom: 125px;
+    text-align: center;
+}
+
+.titleText h1
+{
+    font-weight: 750;
+    font-size: 70px;
+    color: white;
+    margin: 0;
+}
+
+.credit
+{
+    position: absolute;
+    bottom: 9px;
+    right: 10px;
+    color: white;
+    opacity: .5;
+}
+
+#description
+{
+    border-radius: 15px;
+    background-color: #FAFAFA;
+    box-shadow: 0 2px 15px rgba(114, 114, 114, 0.1);
+    width: 75%;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 10;
+}
+
+#description p
+{
+    color: #4C4D52;
+    font-size: 19px;
+}
+
+#description a
+{
+    color: inherit;
+}
+
+#description p:nth-of-type(1)
+{
+    padding: 0 20px;
+    padding-top: 25px;
+}
+
+#description p:nth-of-type(2)
+{
+    padding: 0 20px;
+    padding-bottom: 50px; 
+}
+
+#cards
+{
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 19px;
+}
+
+.cardElement
+{
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #FAFAFA;
+    box-shadow: 0 2px 15px rgba(114, 114, 114, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.cardElement img
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.cardElement a
+{
+    color: #4C4D52;
+    text-decoration: none;
+}
+
+.cardElement a:nth-child(2)
+{
+    font-size: 25px;
+    padding: 0 15px;
+}
+
+.cardElement a:nth-child(2):hover
+{
+    color: #007bff;
+}
+
+.cardElement p
+{
+    padding: 0 15px;
+    margin-bottom: 40px;
+    font-size: 17px;
+}
+
+.readMore a
+{
+    text-transform: uppercase;
+    color: #007bff;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+span
+{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.readMore a:hover span
+{
+    transform: translate(5px);
+}
+
+.readMore
+{
+    margin-top: auto;
+    margin-bottom: 25px;
+>>>>>>> 9175e3dfa5b79ea554f5ad410fcf52a85da8ecb1
 }
