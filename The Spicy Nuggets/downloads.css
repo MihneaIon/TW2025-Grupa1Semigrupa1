@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1530;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: white;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #bbb;
+}
+
+nav {}
+
+nav .active {
+  color: #f5792a;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-image: url("background sus.jpg");
+  background-size: contain cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 18px;
+  background: #18B3F2;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.platform-box {
+  background: #111c3d;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.platforms {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #0a1329;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+}
+.list{
+  background-color: #3B3B3B;
+  border-color: #3B3B3B;
+}
+
+.btn2 {
+  display: inline-block;
+  padding: 12px 18px;
+  background: #18B3F2;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.container-stanga-dreapta {
+    display: flex;
+    align-items: stretch;
+    background-color: #2a2a4a;
+    min-height: 500px;
+}
+.partea-stanga {
+    flex: 1; 
+    background-image: url('background\ stanga.webp'); 
+    background-size:cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.partea-dreapta {
+    flex: 1;
+    background: linear-gradient(to right, #7b68ee, #9370db); 
+    color: white;
+    padding: 50px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.partea-dreapta h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.partea-dreapta p {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.buton-nou {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #00b0ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.link-secundar {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+.jos {
+    display: flex;
+    align-items: center; 
+    background: linear-gradient(to right, #ff3859 0%, #ff527a 100%);
+    color: white;
+    padding: 80px 100px;
+}
+.jos {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.jos h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.jos p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.jos .avertisment {
+    font-weight: bold;
+    color: #ffb8c5;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.icon-racheta {
+    flex: 1;
+    text-align: center;
+}
+
+.icon-racheta {
+    max-width: 60%; 
+    height: auto;
+    opacity: 0.8;
+}
+.buton-experimental {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: white;
+    color: #ff3859;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.buton-experimental:hover {
+    background-color: #f0f0f0;
+}
