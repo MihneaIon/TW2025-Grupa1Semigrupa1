@@ -128,7 +128,7 @@ a:hover{
 
 #title
 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .4)),url('./Imagini/featuresBg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .4)),url('./Imagini/featuresBg.jpg');
     background-size: cover;
     height: 560px;
     display: flex;
