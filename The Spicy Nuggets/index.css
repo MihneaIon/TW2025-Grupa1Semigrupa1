@@ -1,12 +1,6 @@
 body{
     margin: 0;
 }
-.part3 figure{
-    display: inline-block;
-    justify-content: center;
-    margin: auto;
-
-}
 .logo img{
     width: 128px;
     height: auto;
@@ -29,6 +23,7 @@ header{
     padding: 10px 24px;
     margin: 0 auto;
     max-width: 1200px;
+    font-family: Arial, sans-serif;
 }
 nav.main-nav{
     flex: 1;
@@ -43,6 +38,7 @@ nav.main-nav ul{
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
+
 }
 nav.main-nav li{
     margin-left: 0;
@@ -52,8 +48,9 @@ nav.main-nav a{
     color: inherit;
     display: inline-block;
     padding: 6px 8px;
-    font-size: 18px;
+    font-size: 15px;
 }
+/*...................................*/
 .img_bckg{
     background-image: url(./Imagini/blender_50_artwork_2K.jpg);
     background-size: cover;
@@ -74,11 +71,6 @@ nav.main-nav a{
     max-width: 760px;
     margin: 0;
 }
-.butoane{
-    display: flex;
-    gap: 12px;
-    margin-top: 8px;
-}
 img{
     width: 14rem;
     max-width: 100%;
@@ -86,7 +78,6 @@ img{
 .titlu h1{
     font-size: 64px;
     margin: 0;
-    line-height: 1;
     color: white;
     font-weight: 700;
 }
@@ -94,6 +85,12 @@ img{
     font-weight: 400;
     margin: 8px 0 0 0;
     font-size: 22px;
+}
+/*...................................*/
+.butoane{
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
 }
 .butoane button{
     padding: 12px 22px;
@@ -111,9 +108,239 @@ img{
 .butoane button:last-child{
     background: rgb(0, 0, 0);
 }
-.part2 figure img{
+.butoane button:last-child:hover{
+    background-color: #484242;
+}
+/*...................................*/
+.part2{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin: auto;
+    gap: 40px;
+    padding: 60px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
     
 }
+.part2 figure{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}.part2 figure img{
+    width: 100%;
+    max-width: 580px;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+}
+.part2 figcaption{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #666;
+    letter-spacing: 1px;
+}
+.part2 figure a{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+.part2 figure a:hover{
+    color: rgb(8, 163, 214);
+}
+.part2 h2{
+    display: flex;
+    width: 100%;
+    margin: 0 0 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+}
+.part2 h2 a{
+    text-decoration: none;
+    color: #2c2828;
+}
+.part2 h2 a:hover{
+    text-decoration: underline;
+}
+/*...................................*/
+.part3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.part3 h2{
+    display: flex;
+    width: 100%;
+    margin: 0 0 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+}
+.part3 h2 a{
+    text-decoration: none;
+    color: rgb(57, 53, 53);
+}
+.part3 h2 a:hover{
+    text-decoration: underline;
+}
+.part3 figure{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 270px;
+    flex: 1 1 220px;
+}
+.part3 figure img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+}.part3 figure a{
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+.part3 figure a:hover{
+    color: rgb(8, 163, 214);
+}
+.part3 figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+
+}
+/*...................................*/
+.part4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.part4 h2{
+    display: flex;
+    width: 100%;
+    margin: 0 0 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+}
+.part4 h2 a{
+    text-decoration: none;
+    color: rgb(57, 53, 53);
+}
+.part4 h2 a:hover{
+    text-decoration: underline;
+}
+.part4 figure{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 270px;
+    flex: 1 1 220px;
+}
+.part4 figure img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+}.part4 figure a{
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+.part4 figure a:hover{
+    color: rgb(8, 163, 214);
+}
+.part4 figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+/*...................................*/
+.part5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    width: 75%;
+    margin: 40px auto;
+    padding: 50px 60px;
+    height: 200px;
+    border-radius: 12px;
+    position: relative;
+}
+.part5 h2{
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(33, 223, 153);
+    margin: 0 0 20px 0;
+    font-weight: 700;
+}
+.part5 p{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0 0 12px 0;
+    max-width: 700px;
+
+}
+.part5 a{
+    text-decoration: none;
+    color: white;
+}
+.part5 img{
+    position: absolute;
+    right: 10%;
+    width: 150px;
+}
+.part5 a{
+    text-decoration: underline;
+}
+/*...................................*/
+.part6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(225, 18, 18);
+    width: 75%;
+    margin: 0 auto;
+    padding: 150px 120px;
+    height: 200px;
+    border-radius: 12px;
+    position: relative;
+}
+.part6 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: blue;
+}
+.part6 p{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0 0 12px 0;
+    max-width: 700px;
+}
+.part6 img{
+    width: 120px;
+    margin-right: 20px;
+}
+.part6 a{
+    text-decoration: none;
+    color: white;
+}
+/*...................................*/
