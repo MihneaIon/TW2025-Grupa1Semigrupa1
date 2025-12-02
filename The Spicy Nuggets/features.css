@@ -23,15 +23,12 @@ body
 
 #logoimg
 {
-    object-fit: cover;
-    width: 100%;
+    width: 128px;
     height: 35px;
 }
 
 .blenderLogo
 {
-    display: inline-block;
-    margin: auto;
     padding: 10px;
 }
 
@@ -42,7 +39,6 @@ body
 
 .navBar1
 {
-    float: right;
     padding: 0 10px;
 }
 
@@ -73,24 +69,22 @@ body
 li
 {
     list-style-type: none;
-    display: inline-block;
     padding: 0 5px;
 }
 
-a
+.navBar1 a
 {
     text-decoration: none;
     color: rgb(82, 81, 81);
 }
 
-button
+#btn
 {
-    border-radius: 5px;
-    border: 1px solid;
-    background-color: #007bff;
-    color: white;
+    border-radius: 8px;
+    background-color: #03a1fc;
+    color: #EAEDF0;
+    font-weight: 500;
     padding: 5px 20px;
-    font-weight: bold;
     font-size: 15px;
     box-shadow: 0 10px 25px rgba(100, 170, 255, 0.6);
     white-space: nowrap;
@@ -295,8 +289,3 @@ span
 {
     text-decoration: none;
 }
-
-/* .header
-{
-    color:
-} */
