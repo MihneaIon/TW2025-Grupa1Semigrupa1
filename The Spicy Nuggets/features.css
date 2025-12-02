@@ -104,6 +104,7 @@ li
 #secondNav
 {
     width: 100%;
+    height: 81.6px;
     background-color: #292D32;
     position: sticky;
     top: 0;
@@ -164,7 +165,7 @@ a:hover{
     border-radius: 15px;
     background-color: #FAFAFA;
     box-shadow: 0 2px 15px rgba(114, 114, 114, 0.1);
-    width: 75%;
+    width: 70%;
     margin-top: -100px;
     margin-left: auto;
     margin-right: auto;
@@ -193,81 +194,4 @@ a:hover{
 {
     padding: 0 20px;
     padding-bottom: 50px; 
-}
-
-#cards
-{
-    width: 75%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 19px;
-}
-
-.cardElement
-{
-    border-radius: 15px;
-    overflow: hidden;
-    background-color: #FAFAFA;
-    box-shadow: 0 2px 15px rgba(114, 114, 114, 0.1);
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.cardElement img
-{
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.cardElement a
-{
-    color: #4C4D52;
-    text-decoration: none;
-}
-
-.cardElement a:nth-child(2)
-{
-    font-size: 25px;
-    padding: 0 15px;
-}
-
-.cardElement a:nth-child(2):hover
-{
-    color: #007bff;
-}
-
-.cardElement p
-{
-    padding: 0 15px;
-    margin-bottom: 40px;
-    font-size: 17px;
-}
-
-.readMore a
-{
-    text-transform: uppercase;
-    color: #007bff;
-    font-weight: 500;
-    font-size: 15px;
-    padding: 0 15px;
-}
-
-span
-{
-    display: inline-block;
-    transition: transform 0.3s ease;
-}
-
-.readMore a:hover span
-{
-    transform: translate(5px);
-}
-
-.readMore
-{
-    margin-top: auto;
-    margin-bottom: 25px;
 }
