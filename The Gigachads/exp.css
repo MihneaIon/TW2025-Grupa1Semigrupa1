@@ -28,6 +28,10 @@ li {
     padding: 5px;
     
     }
+.imagine {
+    float: left;
+    padding: 5px;
+}
 
 .becomehost {
     display: inline-flex;

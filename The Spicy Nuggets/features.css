@@ -87,6 +87,7 @@ li
     padding: 5px 20px;
     font-size: 15px;
     box-shadow: 0 10px 25px rgba(100, 170, 255, 0.6);
+    white-space: nowrap;
 }
 
 #btn:hover
@@ -128,7 +129,7 @@ a:hover{
 
 #title
 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .4)),url('./Imagini/featuresBg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .4)),url('./Imagini/featuresBg.jpg');
     background-size: cover;
     height: 560px;
     display: flex;
@@ -194,4 +195,98 @@ a:hover{
 {
     padding: 0 20px;
     padding-bottom: 50px; 
+}
+
+#cards
+{
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 19px;
+}
+
+.cardElement
+{
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #FAFAFA;
+    box-shadow: 0 2px 15px rgba(114, 114, 114, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.cardElement img
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.cardElement a
+{
+    color: #4C4D52;
+    text-decoration: none;
+}
+
+.cardElement a:nth-child(2)
+{
+    font-size: 25px;
+    padding: 0 15px;
+}
+
+.cardElement a:nth-child(2):hover
+{
+    color: #007bff;
+}
+
+.cardElement p
+{
+    padding: 0 15px;
+    margin-bottom: 40px;
+    font-size: 17px;
+}
+
+.readMore a
+{
+    text-transform: uppercase;
+    color: #007bff;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+span
+{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.readMore a:hover span
+{
+    transform: translate(5px);
+}
+
+.readMore
+{
+    margin-top: auto;
+    margin-bottom: 25px;
+}
+
+#footer
+{
+    background-color: #292D32;
+    display: flex;
+}
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.column a
+{
+    text-decoration: none;
 }
