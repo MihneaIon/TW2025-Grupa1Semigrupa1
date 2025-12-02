@@ -166,7 +166,7 @@ a:hover{
     border-radius: 15px;
     background-color: #FAFAFA;
     box-shadow: 0 2px 15px rgba(114, 114, 114, 0.1);
-    width: 70%;
+    width: 75%;
     margin-top: -100px;
     margin-left: auto;
     margin-right: auto;
@@ -278,6 +278,9 @@ span
 {
     background-color: #292D32;
     display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
 }
 
 .column
@@ -286,7 +289,33 @@ span
     flex-direction: column;
 }
 
+.column .header, .leftSideFooter .header
+{
+    color: #ABB2BA;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.column .header:hover, .leftSideFooter .header:hover
+{
+    color: #737E8C;
+    text-decoration: underline;
+}
+
 .column a
 {
     text-decoration: none;
+    color: #737E8C; 
+    padding: 2px 0;
+    font-size: 14px;
+}
+
+.column a:hover
+{
+    text-decoration: underline;
+}
+
+.column .last
+{
+    padding-bottom: 13px;
 }
