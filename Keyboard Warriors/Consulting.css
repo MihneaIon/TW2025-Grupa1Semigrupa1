@@ -1,0 +1,45 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 14px 28px;
+    border-bottom: 1px solid #ddd;
+    background: #f8f8f8;
+}
+.sub-nav {
+    display: flex;
+    align-items: center;
+    padding: 14px 28px;
+    border-bottom: 1px solid #ddd;
+    background: #f8f8f8;
+}
+
+.sub-meniu button{
+    background: none;
+    border: none;
+    margin: -1px;
+    padding: 4px 6px;
+    font-size: 28px;
+    cursor: pointer;
+    border-radius: 0px;
+}
+.imagine1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.top-left {
+    pposition: absolute;
+    top: 8px;
+    left: 16px;
+}
