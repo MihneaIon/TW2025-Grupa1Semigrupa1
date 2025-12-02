@@ -7,9 +7,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px 40px;
+  padding: 20px 325px;
   gap: 40px;
+  position: fixed;
+  background-color: white;
  border-bottom: 2px solid #eee;
+ z-index: 1;
   }
 
 .navigatie img {
