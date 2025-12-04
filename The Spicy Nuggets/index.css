@@ -279,15 +279,15 @@ img{
     background-color: black;
     color: white;
     width: 75%;
-    margin: 40px auto;
-    padding: 50px 60px;
+    margin: 60px auto;
+    padding: 60px 60px;
     height: 200px;
     border-radius: 12px;
     position: relative;
 }
 .part5 h2{
     font-family: Arial, sans-serif;
-    font-size: 50px;
+    font-size: 70px;
     color: rgb(33, 223, 153);
     margin: 0 0 20px 0;
     font-weight: 700;
@@ -317,11 +317,11 @@ img{
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
-    background-color: rgba(197, 195, 195, 0.145);
+    background-color: rgba(160, 227, 235, 0.145);
     width: 75%;
-    margin: 0 auto 60px auto;
-    padding: 60px 80px;
-    height: 200px;
+    margin: 60px auto;
+    padding: 60px 60px;
+    height: 250px;
     border-radius: 12px;
     position: relative;
     box-shadow: 0 3px 3px rgba(70, 70, 70, 0.16);
@@ -364,8 +364,8 @@ img{
     background-color: rgba(247, 242, 255);
     width: 75%;
     margin: 60px auto;
-    padding: 100px 80px;
-    height: 350px;
+    padding: 100px 60px;
+    height: 390px;
     border-radius: 12px;
     position: relative;
     box-shadow: 0 3px 3px rgba(70, 70, 70, 0.16);
@@ -409,8 +409,7 @@ img{
 }
 .part7 .blendercom figcaption{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    text-align: center;
+    font-size: 22px;
 }
 .part7 .blendercom figcaption a{
     text-decoration: none;
@@ -418,4 +417,60 @@ img{
 }
 .part7 .blendercom figcaption a:hover{
     text-decoration: underline;
+}
+.part8{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(21, 18, 199);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 75%;
+    margin: 60px auto;
+    padding: 80px 60px;
+    height: 330px;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 3px 3px rgba(70, 70, 70, 0.16);
+    background-image: url(./Imagini/comimage.jpg);
+}
+.part8::before{
+    background-color: rgba(0, 0, 255, 0.709);
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    border-radius: 12px;
+    z-index: 0;
+}
+.part8 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    color: white;
+    margin: 0 0 20px 0;
+}
+.part8 p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    font-size: 18px;
+    margin: 0 0 40px 0;
+    color: white;
+}
+.part8 a{
+    font-size: 18px;
+    text-decoration: underline;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part8 img{
+    display: none;
+}
+.part8 h2, .part8 p, .part8 a{
+    position: relative;
+    z-index: 1;
 }
