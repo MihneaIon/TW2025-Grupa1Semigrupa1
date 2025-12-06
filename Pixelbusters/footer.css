@@ -3,9 +3,9 @@ footer{
             min-height: 700px;
             color: rgba(255, 255, 255, 0.712);
         }
-        .img_f1{width: 70px;
-            left: 50%;
-            padding-left: 100px;
+        .img_f1{width: 55px;
+        
+            padding-left: 275px;
              
         }
         .tab_foot{
@@ -14,30 +14,28 @@ footer{
         }
         th{text-align: left;
             color: rgb(255, 255, 255);
-            padding-bottom: 15px;
-            padding-right: 210px;
-            font-size: 20px;
+            padding-bottom: 30px;
+            padding-right: 170px;
+            font-size: 16px;
         }
         td{
             padding-bottom: 20px;
-            font-size: 20px;
+            font-size: 14px;
+            font-weight: bold;
         }
         table{
             display: inline;
-            padding-left: 100px;
+            padding-left: 70px;
+            
         }
         .tab_foot:hover{
             color:white;
         }
-        span{
-            
-            display: block;
-        }
         .foot span{
-            padding-left: 270px;
+            padding-left: 410px;
         }
         #h4_1{
-            padding-left: 270px;
+            padding-left: 410px;
         }
         h4{
             display: inline;
@@ -54,5 +52,5 @@ footer{
             
         }
         #s1{
-            padding-left: 270px;
+            padding-left: 410px;
         }
