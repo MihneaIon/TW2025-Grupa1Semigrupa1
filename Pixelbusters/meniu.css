@@ -1,5 +1,6 @@
 .navigatie {
     background-color: white;
+    position: unset !important; /* am adaugat unset pentru a nu mai fie fixat sus */
 }
 #wrapper {
     font-family: sans-serif;
