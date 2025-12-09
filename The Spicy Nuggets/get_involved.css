@@ -1,0 +1,175 @@
+.logo img{
+    width: 128px;
+    height: auto;
+    display: block;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    flex: 0 0 auto;
+}
+header{
+    padding: 0px;
+    margin: 0px;
+}
+.top-bar{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 10px 24px;
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: Arial, sans-serif;
+}
+nav.main-nav{
+    flex: 1;
+    margin-left: 335px;
+}
+nav.main-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+nav.main-nav li{
+    margin-left: 0;
+}
+nav.main-nav a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    padding: 6px 8px;
+    font-size: 15px;
+}
+/* Stiluri Generale */
+body {
+    margin: 0;
+    font-family: 'Blender Pro', Helvetica, Arial, sans-serif; 
+    background-color: #f5f5f5; 
+}
+
+/* 1. BANNERUL DE SUS */
+.get-involved-banner {
+    background-image: url('background\ get.jpg'); 
+    background-size: cover;
+    background-position: center top; 
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    padding-top: 100px; 
+    box-shadow: inset 0 -100px 100px -50px rgba(0, 0, 0, 0.2); 
+    text-align: center; /* Centrare a textului în banner */
+}
+
+.get-involved-banner h1 {
+    color: #ffffff;
+    font-size: 3.5em; 
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 5px; 
+}
+
+.get-involved-banner p {
+    color: #ffffff;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    margin-top: 0;
+}
+
+/* 2. CONTAINERUL PRINCIPAL CARE CUPRINDE TOATE CĂSUȚELE */
+.involved-content-wrapper {
+    max-width: 1200px; /* Lățimea maximă a întregului bloc de conținut */
+    margin: -150px auto 40px auto; /* CENTREAZĂ PE ORIZONTALĂ și ridică peste banner */
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+    border-radius: 8px; 
+}
+
+/* CĂSUȚA DE TEXT INTRODUCTIV (MIJLOC) - DIMENSIONAT ȘI CENTRAT */
+.involved-intro {
+    max-width: 800px; /* Lățime mai mică pentru aspect de coloană */
+    margin: 0 auto 40px auto; /* CENTREAZĂ CĂSUȚA ÎN INTERIORUL WRAPPER-ULUI */
+    
+    background-color: #ffffff; 
+    padding: 30px; 
+    border-radius: 6px; 
+    border: 1px solid #ddd; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
+    
+    text-align: left; /* Textul rămâne aliniat la stânga, conform designului Blender */
+    color: #333;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* GRILA DE CARDURI (JOS) - CENTRARE ȘI DIMENSIONARE */
+.involved-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 coloane egale */
+    gap: 30px; 
+}
+
+.involved-card {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #ffffff;
+    height: 100%; 
+    box-sizing: border-box;
+}
+
+.involved-card h3 {
+    color: #444; 
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.involved-card p {
+    color: #555;
+    font-size: 0.95em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Stiluri link-uri/butoane */
+.involved-card a {
+    color: #4A90E2; 
+    background: hwb(212 59% 2%);
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 15px;
+    padding: 5px 0;
+}
+.tra
+/* Cardul de donații, pe toată lățimea */
+.donations-sponsors {
+    grid-column: 1 / span 2; 
+    display: flex;
+    justify-content: space-between;
+}
+.donations-sponsors > div {
+    flex: 1;
+    padding-right: 20px;
+}
+.donations-sponsors p{
+    display: flex;
+    flex-direction: column;
+}
+.donations-sponsors p1{
+    align-items: left;
+    margin-top: 5px;
+}
+.donations-sponsors p2{
+    align-items: right;
+    margin-top: 5px;
+}

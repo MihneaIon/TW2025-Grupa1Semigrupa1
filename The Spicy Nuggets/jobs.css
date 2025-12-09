@@ -49,23 +49,6 @@ body
     align-items: center;
 }
 
-.navBar2 ul
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 8px 200px;
-    margin: 0 auto;
-    gap: 10px;
-}
-
-.navBar2 ul > :last-child
-{
-    flex-basis: 100%;
-    padding-left: 20px;
-}
-
 li
 {
     list-style-type: none;
@@ -76,6 +59,11 @@ li
 {
     text-decoration: none;
     color: rgb(82, 81, 81);
+}
+
+.navBar1 a:hover
+{
+    color: #007bff;
 }
 
 #btn
@@ -102,175 +90,131 @@ li
     border-bottom: 5px solid black;
 }
 
-#secondNav
-{
-    width: 100%;
-    background-color: #292D32;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.navBar2 a
-{
-    color: #D2D6DA;
-    text-decoration: none;
-}
-
-a:hover{
-    color: #007bff;
-}
-
-.diffLi, .diffLi > a
-{
-    color: #8D8E96;
-}
-
 #title
 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .4)),url('./Imagini/featuresBg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, .3)), url("./Imagini/jobfericit.jpg");
     background-size: cover;
     height: 560px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    position: relative;
+    color: white;
 }
 
 .titleText
 {
-    margin-bottom: 125px;
-    text-align: center;
+    width: 50%;
+    margin-left: 200px;
+    margin-bottom: 150px;
 }
 
-.titleText h1
+#title h1
 {
-    font-weight: 750;
-    font-size: 70px;
-    color: white;
     margin: 0;
+    font-weight: 700;
+    font-size: 80px;
 }
 
-.credit
+#title p
 {
-    position: absolute;
-    bottom: 9px;
-    right: 10px;
-    color: white;
-    opacity: .5;
+    margin: 0;
+    font-size: 24px;
 }
 
-#description
-{
-    border-radius: 15px;
-    background-color: #FAFAFA;
-    box-shadow: 0 2px 15px rgba(114, 114, 114, 0.1);
-    width: 75%;
-    margin-top: -100px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    z-index: 10;
-}
-
-#description p
-{
-    color: #4C4D52;
-    font-size: 19px;
-}
-
-#description a
-{
-    color: inherit;
-}
-
-#description p:nth-of-type(1)
-{
-    padding: 0 20px;
-    padding-top: 25px;
-}
-
-#description p:nth-of-type(2)
-{
-    padding: 0 20px;
-    padding-bottom: 50px; 
-}
-
-#cards
+#content
 {
     width: 75%;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 19px;
-}
-
-.cardElement
-{
-    border-radius: 15px;
-    overflow: hidden;
     background-color: #FAFAFA;
-    box-shadow: 0 2px 15px rgba(114, 114, 114, 0.1);
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    border-radius: 15px;
+    margin-top: -100px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(114, 114, 114, 0.1);
 }
 
-.cardElement img
+.quickInfo
 {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+    font-style: italic;
 }
 
-.cardElement a
+.quickInfo p
+{
+    margin: 0;
+    margin-bottom: 16px;
+    color: #4C4D52;
+    font-size: 16px;
+}
+
+.aboutBlender
+{
+    margin-bottom: 72px;
+}
+
+h2
+{
+    font-size: 28px;
+    color: #4C4D52;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+#content p:nth-child(n+2), #videoContent p
 {
     color: #4C4D52;
-    text-decoration: none;
-}
-
-.cardElement a:nth-child(2)
-{
-    font-size: 25px;
-    padding: 0 15px;
-}
-
-.cardElement a:nth-child(2):hover
-{
-    color: #007bff;
-}
-
-.cardElement p
-{
-    padding: 0 15px;
-    margin-bottom: 40px;
     font-size: 17px;
+    margin: 0;
+    margin-bottom: 16px;
 }
 
-.readMore a
+.pictureRow
 {
-    text-transform: uppercase;
-    color: #007bff;
-    font-weight: 500;
+    display: flex;
+    gap: 30px;
+}
+
+.picture
+{
+    flex: 1;
+}
+
+.picture img
+{
+    border-radius: 15px;
+    width: 100%;
+    height: 415px;
+    object-fit: cover;
+}
+
+.picture iframe
+{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+#content .pictureRow .picture p, #content .singlePicture .picture p
+{
+    margin: 0;
+    margin-bottom: 48px;
     font-size: 15px;
-    padding: 0 15px;
 }
 
-span
+#videoContent
 {
-    display: inline-block;
-    transition: transform 0.3s ease;
+    width: 75%;
+    margin: auto;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(114, 114, 114, 0.1);
 }
 
-.readMore a:hover span
+#videoContent a
 {
-    transform: translate(5px);
-}
-
-.readMore
-{
-    margin-top: auto;
-    margin-bottom: 25px;
+    color: #4C4D52;
 }
 
 #footer

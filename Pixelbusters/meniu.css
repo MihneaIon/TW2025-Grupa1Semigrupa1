@@ -1,26 +1,22 @@
-
-.navigatie{
+.navigatie {
     background-color: white;
+    position: unset !important; /* am adaugat unset pentru a nu mai fie fixat sus */
 }
-#wrapper{
-    font-family:sans-serif;
-     position: relative;      
-    width: 100%;
-    min-height: 100vh;      
-    padding-bottom: 700px; 
+#wrapper {
     font-family: sans-serif;
-   
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 700px;
+    font-family: sans-serif;
 }
-body{
+body {
     margin: 0;
-    padding:0;
-    background-color:#f0f0f0;
+    padding: 0;
+    background-color: #f0f0f0;
     overflow-x: hidden;
-    
 }
-
- 
-.leftimage{
+.leftimage {
     width: 520px;
     height: 1000px;
     position: relative;
@@ -30,81 +26,70 @@ body{
     padding-bottom: 200px;
     background-color: #1e3932;
 }
-
-p{
+p {
     position: relative;
-    left:150px;
+    left: 150px;
     top: -500px;
     color: white;
     z-index: 2;
     font-size: 20px;
-    
-
-
 }
-.Order{
-    z-index:2;
-    position:relative; 
+.Order {
+    z-index: 2;
+    position: relative;
     bottom: 480px;
-      left: 100px;
-     margin: 1px;
-     padding: 15px 100px;
-     background-color: white;
+    left: 100px;
+    margin: 1px;
+    padding: 15px 100px;
+    background-color: white;
     color: black;
     width: 600px;
-   height: auto;
-   border-radius: 100px;
+    height: auto;
+    border-radius: 100px;
     text-align: center;
-     
- text-decoration: none;
- border: thin solid white;
- box-sizing: border-box;
-                       
-                       
+    text-decoration: none;
+    border: thin solid white;
+    box-sizing: border-box;
 }
-
-.store{
+.store {
     position: relative;
-                     z-index: 2;
-                      color: white;
-                       left: 100px;
-                        bottom: 430px;
-                       padding: 15px 55px;
-                       background-color:transparent;
-                       border: thin solid white;
-                       width: 100px;
-                       height: auto;
-                       border-radius: 100px;
-                       text-align: center;
-                       margin: auto;
-                       text-decoration: none;
-                       box-sizing: border-box;
+    z-index: 2;
+    color: white;
+    left: 100px;
+    bottom: 430px;
+    padding: 15px 55px;
+    background-color: transparent;
+    border: thin solid white;
+    width: 100px;
+    height: auto;
+    border-radius: 100px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    box-sizing: border-box;
 }
-
-.bloc1{
+.bloc1 {
     position: relative;
     left: 450px;
     width: 800px;
     height: 500px;
     bottom: 750px;
 }
-
-.paragraf1{
+.paragraf1 {
     color: black;
     font-size: 25px;
     line-height: 35px;
     margin-bottom: 10px;
 }
-.paragraf2{
+.paragraf2 {
     color: black;
     line-height: 30px;
     color: gray;
 }
-
-.box1{
+.box1 {
     position: absolute;
     width: 270px;
-    height:370px;
+    height: 370px;
     top: 300px;
     left: 650px;
     padding: 10px;
@@ -112,169 +97,148 @@ p{
     border-radius: 10px;
     border: 1px solid lightgray;
 }
-
-.imaginebox1{
+.imaginebox1 {
     width: 290px;
     height: auto;
     position: absolute;
     top: 0px;
     left: 0px;
     border-top-left-radius: 10px;
-       border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
-
-.drinks{
+.drinks {
     top: 190px;
     color: black;
     left: 45px;
 }
-
-.box1paragraf{
- top: 200px;
-    color:gray;
+.box1paragraf {
+    top: 200px;
+    color: gray;
     text-align: center;
     width: 245px;
     font-size: 15px;
     left: 15px;
 }
-
-.drinksorder{
-        position: absolute;
-                      color: #1e3932;
-                       top: 330px; 
-                       left: 20px;
-                        bottom: auto;
-                        margin: 1px;
-                       padding: 10px;
-                       background-color:transparent;
-                       border: thin solid #1e3932;
-            
-                       width: 100px;
-                       height: 20px;
-                       border-radius: 100px;
-                       text-align: center;
-                       text-decoration: none;
-                       z-index: 3;
+.drinksorder {
+    position: absolute;
+    color: #1e3932;
+    top: 330px;
+    left: 20px;
+    bottom: auto;
+    margin: 1px;
+    padding: 10px;
+    background-color: transparent;
+    border: thin solid #1e3932;
+    width: 100px;
+    height: 20px;
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 3;
 }
-.box2{
+.box2 {
     position: absolute;
     width: 270px;
-    height:370px;
+    height: 370px;
     top: 300px;
     left: 955px;
     padding: 10px;
     background-color: white;
     border-radius: 10px;
     border: 1px solid lightgray;
-    
-
 }
-
-.imaginebox2{
+.imaginebox2 {
     width: 290px;
     height: auto;
     position: absolute;
     top: 0px;
     left: 0px;
     border-radius: 10px;
-      border-top-left-radius: 10px;
-       border-top-right-radius: 10px
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
-
-.explore{
+.explore {
     top: 191px;
     color: black;
     left: 70px;
 }
-
-.box2paragraf{
+.box2paragraf {
     top: 200px;
-    color:gray;
+    color: gray;
     text-align: center;
     width: 245px;
     font-size: 15px;
     left: 15px;
 }
-
-.foodbox2{
-        position: absolute;
-                      color: #1e3932;
-                       top: 330px; 
-                       left: 20px;
-                        bottom: auto;
-                        margin: 1px;
-                       padding: 10px;
-                       background-color:transparent;
-                       border: thin solid #1e3932;
-                       width: 100px;
-                       height: 18px;
-                       border-radius: 100px;
-                       text-align: center;
-                       text-decoration: none;
-                       z-index: 3;
+.foodbox2 {
+    position: absolute;
+    color: #1e3932;
+    top: 330px;
+    left: 20px;
+    bottom: auto;
+    margin: 1px;
+    padding: 10px;
+    background-color: transparent;
+    border: thin solid #1e3932;
+    width: 100px;
+    height: 18px;
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 3;
 }
-
-.bloc2{
+.bloc2 {
     position: absolute;
     left: 500px;
     width: 700px;
     height: 700px;
     bottom: 550px;
-
 }
- .alergeni{
-    color:black;
-    font-size:25px;
+.alergeni {
+    color: black;
+    font-size: 25px;
     margin-bottom: -10px;
- }
-
- .alergenii{
+}
+.alergenii {
     color: gray;
     margin-bottom: 10px;
-    
- }
-
- .algfood{
-     position: absolute ;
-                      color: #1e3932;
-                       bottom: 1040px;
-                       left: 140px;
-                    
-                        margin: 1px;
-                       padding: 10px;
-                       background-color:transparent;
-                       border: thin solid #1e3932;
-                       width: 370px;
-                       height: 30px;
-                       line-height: 25px;
-                       border-radius: 100px;
-                       text-align: center;
-                       text-decoration: none;
-                       z-index: 3;
-
- }
-
- .algdrinks{
+}
+.algfood {
+    position: absolute;
+    color: #1e3932;
+    bottom: 1040px;
+    left: 140px;
+    margin: 1px;
+    padding: 10px;
+    background-color: transparent;
+    border: thin solid #1e3932;
+    width: 370px;
+    height: 30px;
+    line-height: 25px;
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 3;
+}
+.algdrinks {
     color: #1e3932;
     position: absolute;
-                       bottom: 970px;
-                       left: 140px;
-                        margin: 1px;
-                       padding: 10px;
-                       background-color:transparent;
-                       border: thin solid #1e3932;
-                       width: 380px;
-                       height: 30px;
-                       line-height: 30px;
-                       border-radius: 100px;
-                       text-align: center;
-                       text-decoration: none;
-                       z-index: 3;
-
-
- }
- footer {
+    bottom: 970px;
+    left: 140px;
+    margin: 1px;
+    padding: 10px;
+    background-color: transparent;
+    border: thin solid #1e3932;
+    width: 380px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 3;
+}
+footer {
     position: relative;
-    margin-top: -1500px; 
+    margin-top: -1500px;
     z-index: 5;
 }
