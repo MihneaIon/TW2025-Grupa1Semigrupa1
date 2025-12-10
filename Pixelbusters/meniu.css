@@ -1,244 +1,188 @@
-.navigatie {
-    background-color: white;
+.navigatie { 
+    background-color: white; 
     position: unset !important; /* am adaugat unset pentru a nu mai fie fixat sus */
 }
-#wrapper {
-    font-family: sans-serif;
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    padding-bottom: 700px;
-    font-family: sans-serif;
-}
+
 body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
     overflow-x: hidden;
+    font-family: sans-serif;
 }
+
+#wrapper {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: flex-start;
+
+}
+
+.left {
+    position: relative;
+}
+
 .leftimage {
     width: 520px;
     height: 1000px;
-    position: relative;
-    left: 0;
-    top: -20px;
-    z-index: 1;
-    padding-bottom: 200px;
-    background-color: #1e3932;
+    display: block;
 }
-p {
-    position: relative;
-    left: 150px;
-    top: -500px;
+
+.menu {
+    position: absolute;
+    top: 650px;
+    left: 20px;
     color: white;
-    z-index: 2;
-    font-size: 20px;
+    font-size: 40px;
 }
+
 .Order {
-    z-index: 2;
-    position: relative;
-    bottom: 480px;
-    left: 100px;
-    margin: 1px;
+    position: absolute;
+    top: 700px;
+    left: 20px;
     padding: 15px 100px;
-    background-color: white;
+    width: 200px;
+    background: white;
+    border-radius: 100px;
+    text-align: center;
     color: black;
-    width: 600px;
-    height: auto;
-    border-radius: 100px;
-    text-align: center;
     text-decoration: none;
-    border: thin solid white;
-    box-sizing: border-box;
 }
+
 .store {
-    position: relative;
-    z-index: 2;
-    color: white;
-    left: 100px;
-    bottom: 430px;
-    padding: 15px 55px;
-    background-color: transparent;
-    border: thin solid white;
-    width: 100px;
-    height: auto;
+    position: absolute;
+    top: 770px;
+    left: 20px;
+    width: 200px;
+    padding: 15px 100px;
+    border: 1px solid white;
     border-radius: 100px;
-    text-align: center;
-    margin: auto;
     text-decoration: none;
-    box-sizing: border-box;
+    color: white;
 }
+
+.center {
+    padding-left: 0px;
+    padding-top: 50px;
+}
+
 .bloc1 {
-    position: relative;
-    left: 450px;
     width: 800px;
-    height: 500px;
-    bottom: 750px;
+    padding-left: 50px;
 }
+
 .paragraf1 {
     color: black;
     font-size: 25px;
     line-height: 35px;
-    margin-bottom: 10px;
 }
+
 .paragraf2 {
-    color: black;
-    line-height: 30px;
     color: gray;
 }
-.box1 {
-    position: absolute;
-    width: 270px;
+
+.boxuri {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.box1, .box2 {
+    width: 300px;
     height: 370px;
-    top: 300px;
-    left: 650px;
-    padding: 10px;
-    background-color: white;
+    background: white;
     border-radius: 10px;
     border: 1px solid lightgray;
+    position: relative;
+    padding: 10px;
 }
-.imaginebox1 {
-    width: 290px;
-    height: auto;
+.box1{
+    left: 100px;
+    bottom:-40px;
+}
+.box2{
+    left: 450px;
+    bottom: 350px;
+    
+}
+
+.imaginebox1, .imaginebox2 {
+    width: 320px;
+    border-radius: 10px ;
     position: absolute;
-    top: 0px;
-    left: 0px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    top: 0;
+    left: 0;
 }
-.drinks {
+
+.drinks, .explore {
+    position: absolute;
     top: 190px;
-    color: black;
+    font-size: 20px;
+}
+
+.drinks {
     left: 45px;
 }
-.box1paragraf {
-    top: 200px;
-    color: gray;
-    text-align: center;
-    width: 245px;
-    font-size: 15px;
-    left: 15px;
-}
-.drinksorder {
-    position: absolute;
-    color: #1e3932;
-    top: 330px;
-    left: 20px;
-    bottom: auto;
-    margin: 1px;
-    padding: 10px;
-    background-color: transparent;
-    border: thin solid #1e3932;
-    width: 100px;
-    height: 20px;
-    border-radius: 100px;
-    text-align: center;
-    text-decoration: none;
-    z-index: 3;
-}
-.box2 {
-    position: absolute;
-    width: 270px;
-    height: 370px;
-    top: 300px;
-    left: 955px;
-    padding: 10px;
-    background-color: white;
-    border-radius: 10px;
-    border: 1px solid lightgray;
-}
-.imaginebox2 {
-    width: 290px;
-    height: auto;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
+
 .explore {
-    top: 191px;
-    color: black;
     left: 70px;
 }
-.box2paragraf {
-    top: 200px;
-    color: gray;
-    text-align: center;
-    width: 245px;
-    font-size: 15px;
-    left: 15px;
-}
-.foodbox2 {
+
+.box1paragraf, .box2paragraf {
     position: absolute;
-    color: #1e3932;
+    top: 220px;
+    width: 260px;
+    left: 15px;
+    text-align: center;
+    color: gray;
+}
+
+.drinksorder, .foodbox2 {
+    position: absolute;
     top: 330px;
     left: 20px;
-    bottom: auto;
-    margin: 1px;
     padding: 10px;
-    background-color: transparent;
-    border: thin solid #1e3932;
-    width: 100px;
-    height: 18px;
+    border: 1px solid #1e3932;
     border-radius: 100px;
+    width: 100px;
     text-align: center;
     text-decoration: none;
-    z-index: 3;
+    color: #1e3932;
 }
+
 .bloc2 {
-    position: absolute;
-    left: 500px;
-    width: 700px;
-    height: 700px;
-    bottom: 550px;
+    position: relative;
+    margin-top: -320px;
+    left: 50px;
 }
+
 .alergeni {
-    color: black;
     font-size: 25px;
-    margin-bottom: -10px;
+    left: 50px;
 }
+
 .alergenii {
     color: gray;
-    margin-bottom: 10px;
+    left: 50px;
+    width: 900px;
 }
-.algfood {
-    position: absolute;
-    color: #1e3932;
-    bottom: 1040px;
-    left: 140px;
-    margin: 1px;
-    padding: 10px;
-    background-color: transparent;
-    border: thin solid #1e3932;
-    width: 370px;
-    height: 30px;
-    line-height: 25px;
-    border-radius: 100px;
-    text-align: center;
-    text-decoration: none;
-    z-index: 3;
-}
-.algdrinks {
-    color: #1e3932;
-    position: absolute;
-    bottom: 970px;
-    left: 140px;
-    margin: 1px;
-    padding: 10px;
-    background-color: transparent;
-    border: thin solid #1e3932;
+
+.algfood, .algdrinks {
+    display: block;
     width: 380px;
-    height: 30px;
-    line-height: 30px;
+    padding: 20px;
+    border: 1px solid #1e3932;
     border-radius: 100px;
+    color: #1e3932;
     text-align: center;
     text-decoration: none;
-    z-index: 3;
+    margin-top: 20px;
 }
+
 footer {
-    position: relative;
-    margin-top: -1500px;
-    z-index: 5;
+    width: 100%;
+    background: white;
+    margin-top: -40px;
+    padding: 40px ;
 }
