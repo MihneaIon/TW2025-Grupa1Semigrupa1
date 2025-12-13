@@ -15,14 +15,15 @@ main {
     padding: 20px;
     position: relative;
     left : 150px;
+    background-color: #f9f9f9;
 }
 .intrebare-box {
     border: 1px solid #ddd;
-    padding: 60px;
+    padding: 30px;
     margin-bottom: 20px;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    max-width: 400px;
+    border-radius: 0px;
+    background-color: white;
+    max-width: 350px;
 }
 
 .intrebare-box p {
@@ -50,6 +51,19 @@ p {
     color: #5b5b5b;
 }
 .intrebare-box p{
-    font-size: 30px;
+    font-size: 20px;
 }
-
+.intrebari-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+    gap: 0px;
+    margin-top: 10px;
+}
+.left{
+    background-color: #f9f9f9;
+}
+body {
+    background-color: #f9f9f9;
+}
