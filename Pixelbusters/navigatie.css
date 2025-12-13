@@ -6,8 +6,10 @@
 .navigatie {
   display: flex;
   align-items: center;
-  padding: 20px 339px;
+  padding: 1% 339px;
   gap: 40px;
+  left: 0;
+  right: 0;
   position: fixed;
   background-color: white;
  border-bottom: 2px solid #eee;
@@ -23,6 +25,7 @@
   text-decoration: none;
   color: #000;
   font-weight: bold;
+  position: relative;
   font-size: 14px;
 }
 .navigatie .verde:hover{

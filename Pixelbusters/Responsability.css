@@ -1,9 +1,50 @@
-.stanga { position: absolute; top: 10%; left: 0; right: 62%; bottom: -25%;}
-.dreapta { position: absolute; top: 10%; left: 38%; right: 0; bottom: -25%;  }
+.stanga {position: absolute; margin: auto; top: 10%; left: 0; right: 62%; bottom: -25%; }
+.dreapta { position: absolute; margin: auto;  top: 10%; left: 38%; right: 0; bottom: -25%;  }
 
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.text{
+text-align: left;
+color: white;
+font-size: 11px;
+position: relative;
+bottom: 40%;
+left: 45%;
+width: 45%;
+}
+
+.text #txt1{
+    padding: 5% 0;
+    text-transform: uppercase;
+}
+
+
+.butonas #bt1{
+position: absolute;
+  color: #ffffff;
+ background-color: #ffffff00;
+ font-weight: bold;
+  padding: 14px 24px;
+  border-radius: 30px;
+  font-size: 14px;
+  border-color: #ffffff3f;
+  border-width: 1px;
+  cursor: pointer;
+   opacity: 100%;
+   bottom: 25%;
+left: 45%;
+}
+
+.butonas #bt1:hover{
+     opacity: 85%;
+      background-color: #ffffff28;
+}
+
+
+
+
 .corp{
 padding-bottom: 55%;
 }

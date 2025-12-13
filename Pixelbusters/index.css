@@ -19,10 +19,8 @@
   font-size: 220%;
         }
         .store_box{
-            position: absolute;
-            text-align: left;
-  bottom: 54%;
-  left: 22%;
+            display: block;
+            margin: 1% auto;
   font-weight: bold;
   color: black;
  background-color: white;
@@ -32,7 +30,7 @@
   cursor: pointer;
         }
         .store_box:hover{
-            background-color: rgba(255, 255, 255, 0.774);
+            background-color: rgba(165, 164, 164, 0.267);
         }
         h1{padding-top: 50px;
             text-align: center;
