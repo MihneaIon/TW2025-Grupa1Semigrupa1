@@ -5,12 +5,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .corp{
-padding-bottom: 100%;
+padding-bottom: 55%;
 }
 
 hr{
     width: 90%;
-    margin: 10px auto;
+    margin: 5% auto;
     opacity: 30%;
     
 }
@@ -18,17 +18,17 @@ hr{
 .grid {
 display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
+    gap: 3%;
+    max-width: 55%;
+    margin: 0 10%;
    
 }
 .cell {
 background: white;
 border: 1px solid rgba(128, 128, 128, 0.301);
 
-max-height: 400px;
+min-height: 380px;
+max-height: 380px;
     max-width: 300px;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.08);
@@ -48,26 +48,33 @@ border-radius: 5px;
 padding-bottom: 10%;
 font-size: 14px;
 opacity: 50%;
+min-height: 18%;
+max-height: 18%;
 
 }
 .cell .btngrd {
     width: 100%;
+    
 }
 
 .cell .btngrd button {
     background-color: white;
-    color: #00C83E;
-    padding: 6px 12px;
-
+    color: #009F32;
+  
     border: none;
     cursor: pointer;
     font-size: 16px;
     font-weight:bold;
     border-radius: 5px;
+    margin: 5% 2%;
 }
 .cell .link_icon{
-    width: 10%;
-    position: relative;
-    top: -17px;
-    left: 120px;
+max-width: 15px;
+    display: inline-block;
+}
+.dreapta #titlu{
+    color: black;
+    font-size: 160%;
+    max-width: 55%;
+    margin: 7% 0 1% 10%;
 }
