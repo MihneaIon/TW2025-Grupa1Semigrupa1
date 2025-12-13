@@ -18,10 +18,11 @@ main {
 }
 .intrebare-box {
     border: 1px solid #ddd;
-    padding: 20px;
+    padding: 60px;
     margin-bottom: 20px;
     border-radius: 8px;
     background-color: #f9f9f9;
+    max-width: 400px;
 }
 
 .intrebare-box p {
@@ -48,3 +49,7 @@ p {
     font-size: 16px;
     color: #5b5b5b;
 }
+.intrebare-box p{
+    font-size: 30px;
+}
+
