@@ -172,15 +172,16 @@ body{
     border-radius: 20px;
 }
 
+
+
 .video {
-    width: 100%;
+    width: 50%;
     height: 300px;
     background: linear-gradient(135deg, #5d5afe, #00b0ff);
     border-radius: 12px;
     color:white;
-    display:flex;
-    justify-content: center;
-    align-items:center;
+    display:center;
+    align-items: center;
     font-size:28px;
 }
 
