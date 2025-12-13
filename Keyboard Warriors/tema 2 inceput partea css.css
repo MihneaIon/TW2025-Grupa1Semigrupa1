@@ -676,7 +676,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: black;
+    color: blue;
+
 }
 
 header ul {
