@@ -1,10 +1,19 @@
-.navigatie { 
-    background-color: white; 
-    position: unset !important;
-}
 .footer {
     width: 100%;
     background: white;
     margin-top: -40px;
     padding: 40px ;
+}
+.navigatie {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+main {
+    padding: 20px;
+    min-height: 400px;
+    position: relative;
+    left : 150px;
 }
