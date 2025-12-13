@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.antet {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  border-bottom: 1px solid #eee;
+}
+
+
+.stanga,
+.dreapta {
+  display: flex;
+  align-items: center;
+}
+
+.centru {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.logo {
+  height: 125px;
+  width: auto;
+}
+
+.bara-cautare {
+  height: 255px;
+  width: auto;
+}
+
+.dreapta {
+  gap: 12px;
+}
+
+.ajutor {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.meniu {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+}
+
+
+.continut {
+  padding: 22px 40px;
+}
+
+.inapoi {
+  color: #111;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+
+.article{
+  width: 100%;
+  height: 185px;
+  object-fit: contain;
+  background: #f2f2f2;
+  border-radius: 16px;
+  object-position: center center;    
+
+}
+
+.poze figcaption{
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.poze{
+  width: 23%;         
+  float: left;
+  margin: 1%;
+  padding-top: 20px;
+}
+.get{
+    padding: 40px;
+    font-size: 40px;
+}
+.footer-jos{
+  border-top: 1px solid #ddd;
+  background: #fff;
+  padding-bottom: 80px;
+  font-family: Arial, sans-serif;
+  
+}
+
+.footer-jos-container{
+
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.footer-stanga{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 14px;
+  color: #222;
+}
+
+.footer-stanga a{
+  color: #555;
+  text-decoration: none;
+}
+
+.footer-stanga a:hover{
+  text-decoration: underline;
+}
+
+.punct{
+  color: #999;
+}
+
+.footer-dreapta{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 14px;
+}
+
+.setare{
+  color: #222;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.setare:hover{
+  text-decoration: underline;
+}
+
+.icon{
+  color: #222;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+}
+
+
+.toggle{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 14px;
+  border-radius: 999px;
+  background: #0b5fff;
+  color: #fff;
+  font-size: 10px;
+  margin-left: 6px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a :hover{
+    text-decoration: underline;
+}
+.full{
+    margin-left: 75px;
+    margin-right: 75px;
+}
