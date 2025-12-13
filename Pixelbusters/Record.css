@@ -1,11 +1,153 @@
-.navigatie { 
-    background-color: white; 
-    position: unset !important;
-    align-items: normal;
+.navigatie {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
 }
-.footer {
-    width: 100%;
-    background: white;
-    margin-top: -40px;
-    padding: auto;
+
+.navigatie img {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.navigatie a.verde {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #006241; /* verde Starbucks */
+  font-weight: bold;
+}
+
+.buton1, .buton2 {
+  margin-left: 15px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buton1 {
+  background-color: #006241;
+  color: #fff;
+}
+
+.buton2 {
+  background-color: #fff;
+  color: #006241;
+  border: 1px solid #006241;
+}
+
+/* dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: #006241;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #006241;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* wrapper + main */
+#wrapper {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+main h1 {
+  font-size: 2.2rem;
+  color: #006241;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+main h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+main ul {
+  list-style: none;
+  padding: 0;
+}
+
+main ul li {
+  margin-bottom: 10px;
+}
+
+main ul li a {
+  color: #006241;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main ul li a:hover {
+  text-decoration: underline;
+}
+
+/* footer */
+footer {
+  background-color: #f7f7f7;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+footer .foot {
+  max-width: 1000px;
+  margin: auto;
+}
+
+footer table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+footer th {
+  text-align: left;
+  color: #006241;
+}
+
+footer td a.tab_foot {
+  color: #333;
+  text-decoration: none;
+}
+
+footer td a.tab_foot:hover {
+  text-decoration: underline;
+}
+
+footer .socials {
+  width: 30px;
+  margin: 0 10px;
 }
