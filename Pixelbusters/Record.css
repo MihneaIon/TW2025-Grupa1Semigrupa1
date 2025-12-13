@@ -1,0 +1,11 @@
+.navigatie { 
+    background-color: white; 
+    position: unset !important;
+    align-items: normal;
+}
+.footer {
+    width: 100%;
+    background: white;
+    margin-top: -40px;
+    padding: auto;
+}
