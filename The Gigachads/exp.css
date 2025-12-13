@@ -17,6 +17,47 @@ body {
         margin: auto;
        
         }
+        .search-bar{
+        width:60%;
+        margin:20px auto;
+        background:white;
+        border-radius:40px;
+        padding:10px 20px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        box-shadow:0 2px 10px rgba(0,0,0,0.15);
+    }
+
+    .search-section{
+        display:flex;
+        flex-direction:column;
+        padding:0 20px;
+        border-right:1px solid #eee;
+    }
+
+    .search-section:last-child{
+        border-right:none;
+    }
+
+    .search-title{
+        font-size:12px;
+        color:#777;
+    }
+
+    .search-value{
+        font-size:14px;
+        font-weight:bold;
+    }
+
+    .search-btn{
+        background:#ff385c;
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        border:none;
+        cursor:pointer;
+    }
 .logo {
     display: inline-block;
     }
@@ -40,6 +81,7 @@ li {
     right: 150px;
     font-size: 16px;
 }
+
 
 
      .section-title{
@@ -92,3 +134,16 @@ li {
         font-weight:bold;
     }
 
+   footer { width:100%;
+    padding:25px 40px;
+    background:white;
+    margin-top:60px;
+    border-top:1px solid #ddd;
+    font-size:14px;
+    color:#555;
+    display:flex;
+    justify-content:center;
+   }
+.acasa {
+    text-decoration: none;
+}
