@@ -214,3 +214,154 @@ nav.main-nav a{
     height: auto;
     opacity: 0.8;
 }
+#footer
+{
+    background-color: #292D32;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 40px;
+    width: 100%;
+}
+
+.firstRow
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+.endingNotes
+{
+    text-align: center;
+}
+
+.endingNotes p
+{
+    color: #737E8C;
+    font-size: 14px;
+}
+
+.endingNotes span
+{
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.column .header, .leftSideFooter .header
+{
+    color: #ABB2BA;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.column .header:hover, .leftSideFooter .header:hover
+{
+    color: #737E8C;
+    text-decoration: underline;
+}
+
+.column a
+{
+    text-decoration: none;
+    color: #737E8C; 
+    padding: 2px 0;
+    font-size: 14px;
+}
+
+.column a:hover
+{
+    text-decoration: underline;
+}
+
+.column .last
+{
+    padding-bottom: 13px;
+}
+
+.support
+{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+#bigBtn
+{
+    border-radius: 6px;
+    background-color: #03a1fc;
+    color: #EAEDF0;
+    font-weight: 500;
+    padding: 5px 20px;
+    font-size: 15px;
+    box-shadow: 0 0 25px rgba(29, 103, 243, 0.6);
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+#bigBtn:hover
+{
+    filter: brightness(107%);
+}
+
+.socials
+{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.buttons
+{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.buttons i
+{
+    color: #737E8C;
+    font-size: 20px;
+}
+
+.leftSideFooter
+{
+    border-left: 2px solid rgba(114, 114, 114, 0.4);
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+    
+}
+
+.donation a
+{
+    color: #737E8C;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.donation a:hover
+{
+    text-decoration: underline;
+}
+
+.donation
+{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
