@@ -180,6 +180,7 @@ a{
     background: #fff;
     padding: 40px 80px 20px;
     border-top: 1px solid #ddd;
+    text-align: center;
 }
 
 
@@ -193,6 +194,7 @@ a{
 .footer .col h3 {
     font-size: 16px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .footer .col a {
@@ -201,6 +203,7 @@ a{
     color: #222;
     text-decoration: none;
     margin-bottom: 6px;
+    text-align: center;
 }
 
 .footer .col a:hover {
@@ -215,12 +218,14 @@ a{
     justify-content: space-between;
     font-size: 14px;
     color: #555;
+    text-align: center;
 }
 
 .footer-jos a {
     color: #555;
     text-decoration: none;
     margin-right: 10px;
+    
 }
 
 .footer-jos a:hover {
