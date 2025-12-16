@@ -1,3 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigatie {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: white;
+  border-bottom: 2px solid #eee;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 0 20px;
+  height: 80px;
+  z-index: 1000;
+   position: unset !important; /* am adaugat unset pentru a nu mai fie fixat sus */
+}
+
+.navigatie img {
+  height: 50px;
+  margin-right: 30px;
+}
+
+.navigatie> ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+}
+
+.navigatie a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.navigatie .verde:hover {
+  color: green;
+}
+
+.dropdown {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.dropbtn {
+  background: none;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  top: 100%;
+  left: 0;
+  list-style: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  font-weight: normal;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.buton1 {
+  padding: 8px 18px;
+  border-radius: 20px;
+  background: #000;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buton1:hover {
+  background-color: #333;
+}
+
+.buton2 {
+  padding: 8px 18px;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buton2:hover {
+  background-color: #f0f0f0;
+}
+
+
 body, p, h1, h2, h3, h4, h5, h6, span, div, a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

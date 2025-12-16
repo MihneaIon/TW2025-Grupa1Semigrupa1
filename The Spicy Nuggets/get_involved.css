@@ -47,14 +47,11 @@ nav.main-nav a{
     padding: 6px 8px;
     font-size: 15px;
 }
-/* Stiluri Generale */
 body {
     margin: 0;
     font-family: 'Blender Pro', Helvetica, Arial, sans-serif; 
     background-color: #f5f5f5; 
 }
-
-/* 1. BANNERUL DE SUS */
 .get-involved-banner {
     background-image: url('background\ get.jpg'); 
     background-size: cover;
@@ -66,7 +63,7 @@ body {
     align-items: center; 
     padding-top: 100px; 
     box-shadow: inset 0 -100px 100px -50px rgba(0, 0, 0, 0.2); 
-    text-align: center; /* Centrare a textului în banner */
+    text-align: center;
 }
 
 .get-involved-banner h1 {
@@ -83,38 +80,30 @@ body {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
     margin-top: 0;
 }
-
-/* 2. CONTAINERUL PRINCIPAL CARE CUPRINDE TOATE CĂSUȚELE */
 .involved-content-wrapper {
-    max-width: 1200px; /* Lățimea maximă a întregului bloc de conținut */
-    margin: -150px auto 40px auto; /* CENTREAZĂ PE ORIZONTALĂ și ridică peste banner */
+    max-width: 1200px;
+    margin: -150px auto 40px auto;
     padding: 30px;
     background-color: #ffffff;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
     border-radius: 8px; 
 }
-
-/* CĂSUȚA DE TEXT INTRODUCTIV (MIJLOC) - DIMENSIONAT ȘI CENTRAT */
 .involved-intro {
-    max-width: 800px; /* Lățime mai mică pentru aspect de coloană */
-    margin: 0 auto 40px auto; /* CENTREAZĂ CĂSUȚA ÎN INTERIORUL WRAPPER-ULUI */
-    
+    max-width: 800px;
+    margin: 0 auto 40px auto;
     background-color: #ffffff; 
     padding: 30px; 
     border-radius: 6px; 
     border: 1px solid #ddd; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
-    
-    text-align: left; /* Textul rămâne aliniat la stânga, conform designului Blender */
+    text-align: left;
     color: #333;
     font-size: 1em;
     line-height: 1.6;
 }
-
-/* GRILA DE CARDURI (JOS) - CENTRARE ȘI DIMENSIONARE */
 .involved-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* 2 coloane egale */
+    grid-template-columns: 1fr 1fr;
     gap: 30px; 
 }
 
@@ -140,8 +129,6 @@ body {
     line-height: 1.5;
     margin-bottom: 10px;
 }
-
-/* Stiluri link-uri/butoane */
 .involved-card a {
     color: #4A90E2; 
     background: hwb(212 59% 2%);
@@ -150,8 +137,6 @@ body {
     margin-right: 15px;
     padding: 5px 0;
 }
-.tra
-/* Cardul de donații, pe toată lățimea */
 .donations-sponsors {
     grid-column: 1 / span 2; 
     display: flex;
@@ -172,4 +157,155 @@ body {
 .donations-sponsors p2{
     align-items: right;
     margin-top: 5px;
+}
+#footer
+{
+    background-color: #292D32;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 40px;
+    width: 100%;
+}
+
+.firstRow
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+.endingNotes
+{
+    text-align: center;
+}
+
+.endingNotes p
+{
+    color: #737E8C;
+    font-size: 14px;
+}
+
+.endingNotes span
+{
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.column .header, .leftSideFooter .header
+{
+    color: #ABB2BA;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.column .header:hover, .leftSideFooter .header:hover
+{
+    color: #737E8C;
+    text-decoration: underline;
+}
+
+.column a
+{
+    text-decoration: none;
+    color: #737E8C; 
+    padding: 2px 0;
+    font-size: 14px;
+}
+
+.column a:hover
+{
+    text-decoration: underline;
+}
+
+.column .last
+{
+    padding-bottom: 13px;
+}
+
+.support
+{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+#bigBtn
+{
+    border-radius: 6px;
+    background-color: #03a1fc;
+    color: #EAEDF0;
+    font-weight: 500;
+    padding: 5px 20px;
+    font-size: 15px;
+    box-shadow: 0 0 25px rgba(29, 103, 243, 0.6);
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+#bigBtn:hover
+{
+    filter: brightness(107%);
+}
+
+.socials
+{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.buttons
+{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.buttons i
+{
+    color: #737E8C;
+    font-size: 20px;
+}
+
+.leftSideFooter
+{
+    border-left: 2px solid rgba(114, 114, 114, 0.4);
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+    
+}
+
+.donation a
+{
+    color: #737E8C;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.donation a:hover
+{
+    text-decoration: underline;
+}
+
+.donation
+{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
